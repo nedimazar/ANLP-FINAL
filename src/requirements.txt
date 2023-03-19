@@ -1,0 +1,3 @@
+ipykernel==6.21.3
+allennlp
+allennlp-models
