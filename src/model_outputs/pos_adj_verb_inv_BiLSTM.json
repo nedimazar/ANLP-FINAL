@@ -1,0 +1,5237 @@
+[
+    {
+        "input": {
+            "sentence": "She wore a torn dress.",
+            "adjective": "torn"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a torn dress] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "torn",
+                    "dress",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The lost dog was found.",
+            "adjective": "lost"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "The lost dog [V: was] found .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "found",
+                        "description": "[ARG1: The lost dog] was [V: found] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "lost",
+                    "dog",
+                    "was",
+                    "found",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He received a broken toy.",
+            "adjective": "broken"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "received",
+                        "description": "[ARG0: He] [V: received] [ARG1: a broken toy] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "received",
+                    "a",
+                    "broken",
+                    "toy",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She bought a used car.",
+            "adjective": "used"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "bought",
+                        "description": "[ARG0: She] [V: bought] [ARG1: a used car] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "bought",
+                    "a",
+                    "used",
+                    "car",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The film had a twisted plot.",
+            "adjective": "twisted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The film] [V: had] [ARG1: a twisted plot] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "film",
+                    "had",
+                    "a",
+                    "twisted",
+                    "plot",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They served a cooked meal.",
+            "adjective": "cooked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "served",
+                        "description": "[ARG0: They] [V: served] [ARG1: a cooked meal] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "served",
+                    "a",
+                    "cooked",
+                    "meal",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The letter was written in a coded language.",
+            "adjective": "coded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "The letter [V: was] written in a coded language .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "written",
+                        "description": "[ARG1: The letter] was [V: written] [ARGM-MNR: in a coded language] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "letter",
+                    "was",
+                    "written",
+                    "in",
+                    "a",
+                    "coded",
+                    "language",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She gave him a puzzled look.",
+            "adjective": "puzzled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "gave",
+                        "description": "[ARG0: She] [V: gave] [ARG2: him] [ARG1: a puzzled look] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG2",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "gave",
+                    "him",
+                    "a",
+                    "puzzled",
+                    "look",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He held a closed umbrella.",
+            "adjective": "closed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "held",
+                        "description": "[ARG0: He] [V: held] [ARG1: a closed umbrella] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "held",
+                    "a",
+                    "closed",
+                    "umbrella",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They had mixed greens.",
+            "adjective": "mixed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: They] [V: had] [ARG1: mixed greens] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "had",
+                    "mixed",
+                    "greens",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The room has a painted wall.",
+            "adjective": "painted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "has",
+                        "description": "[ARG0: The room] [V: has] [ARG1: a painted wall] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "painted",
+                        "description": "The room has a [V: painted] [ARG1: wall] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "room",
+                    "has",
+                    "a",
+                    "painted",
+                    "wall",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He offered a fixed price.",
+            "adjective": "fixed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "offered",
+                        "description": "[ARG0: He] [V: offered] [ARG1: a fixed price] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "fixed",
+                        "description": "He offered a [V: fixed] [ARG1: price] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "offered",
+                    "a",
+                    "fixed",
+                    "price",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She wore a striped shirt.",
+            "adjective": "striped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a striped shirt] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "striped",
+                    "shirt",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They found a buried treasure.",
+            "adjective": "buried"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a buried treasure] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "buried",
+                        "description": "They found a [V: buried] [ARG1: treasure] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "buried",
+                    "treasure",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a cracked phone screen.",
+            "adjective": "cracked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a cracked phone screen] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "cracked",
+                        "description": "She had a [V: cracked] [ARG1: phone screen] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "cracked",
+                    "phone",
+                    "screen",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He owns a trained dog.",
+            "adjective": "trained"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "owns",
+                        "description": "[ARG0: He] [V: owns] [ARG1: a trained dog] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "trained",
+                        "description": "He owns a [V: trained] [ARG2: dog] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "owns",
+                    "a",
+                    "trained",
+                    "dog",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She wore a fitted dress.",
+            "adjective": "fitted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a fitted dress] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "fitted",
+                        "description": "She wore a [V: fitted] [ARG1: dress] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "fitted",
+                    "dress",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He has a shaved beard.",
+            "adjective": "shaved"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "has",
+                        "description": "[ARG0: He] [V: has] [ARG1: a shaved beard] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "shaved",
+                        "description": "He has a [V: shaved] [ARG1: beard] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "has",
+                    "a",
+                    "shaved",
+                    "beard",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She found a wilted flower.",
+            "adjective": "wilted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: She] [V: found] [ARG1: a wilted flower] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "found",
+                    "a",
+                    "wilted",
+                    "flower",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The box was sealed tightly.",
+            "adjective": "sealed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "The box [V: was] sealed tightly .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "sealed",
+                        "description": "[ARG1: The box] was [V: sealed] [ARGM-MNR: tightly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "box",
+                    "was",
+                    "sealed",
+                    "tightly",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He had a bruised arm.",
+            "adjective": "bruised"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a bruised arm] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "bruised",
+                    "arm",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The window was shattered glass.",
+            "adjective": "shattered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The window] [V: was] [ARG2: shattered glass] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "shattered",
+                        "description": "The window was [V: shattered] [ARG1: glass] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "window",
+                    "was",
+                    "shattered",
+                    "glass",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The dress was a folded piece.",
+            "adjective": "folded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The dress] [V: was] [ARG2: a folded piece] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "folded",
+                        "description": "The dress was a [V: folded] [ARG1: piece] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "dress",
+                    "was",
+                    "a",
+                    "folded",
+                    "piece",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They ate a grilled cheese sandwich.",
+            "adjective": "grilled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "ate",
+                        "description": "[ARG0: They] [V: ate] [ARG1: a grilled cheese sandwich] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "grilled",
+                        "description": "They ate a [V: grilled] [ARG1: cheese sandwich] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "ate",
+                    "a",
+                    "grilled",
+                    "cheese",
+                    "sandwich",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The contract was a signed document.",
+            "adjective": "signed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The contract] [V: was] [ARG2: a signed document] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "signed",
+                        "description": "The contract was a [V: signed] [ARG1: document] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "contract",
+                    "was",
+                    "a",
+                    "signed",
+                    "document",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She read a printed book.",
+            "adjective": "printed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "read",
+                        "description": "[ARG0: She] [V: read] [ARG1: a printed book] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "printed",
+                        "description": "She read a [V: printed] [ARG1: book] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "read",
+                    "a",
+                    "printed",
+                    "book",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He wore a washed shirt.",
+            "adjective": "washed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: He] [V: wore] [ARG1: a washed shirt] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "wore",
+                    "a",
+                    "washed",
+                    "shirt",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The computer has a damaged screen.",
+            "adjective": "damaged"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "has",
+                        "description": "[ARG0: The computer] [V: has] [ARG1: a damaged screen] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "damaged",
+                        "description": "The computer has a [V: damaged] [ARG1: screen] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "computer",
+                    "has",
+                    "a",
+                    "damaged",
+                    "screen",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a dried flower bouquet.",
+            "adjective": "dried"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a dried flower bouquet] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "dried",
+                        "description": "She had a [V: dried] [ARG1: flower] bouquet .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "dried",
+                    "flower",
+                    "bouquet",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The package was wrapped tightly.",
+            "adjective": "wrapped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "The package [V: was] wrapped tightly .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "wrapped",
+                        "description": "[ARG1: The package] was [V: wrapped] [ARGM-MNR: tightly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "package",
+                    "was",
+                    "wrapped",
+                    "tightly",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He received a polished award.",
+            "adjective": "polished"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "received",
+                        "description": "[ARG0: He] [V: received] [ARG1: a polished award] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "received",
+                    "a",
+                    "polished",
+                    "award",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She wore a knitted scarf.",
+            "adjective": "knitted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a knitted scarf] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "knitted",
+                    "scarf",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The table had a scratched surface.",
+            "adjective": "scratched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The table] [V: had] [ARG1: a scratched surface] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "table",
+                    "had",
+                    "a",
+                    "scratched",
+                    "surface",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a faded tattoo.",
+            "adjective": "faded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a faded tattoo] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "faded",
+                        "description": "He had a [V: faded] [ARG1: tattoo] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "faded",
+                    "tattoo",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They found a frozen lake.",
+            "adjective": "frozen"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a frozen lake] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "frozen",
+                    "lake",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The cake was a layered dessert.",
+            "adjective": "layered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The cake] [V: was] [ARG2: a layered dessert] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "cake",
+                    "was",
+                    "a",
+                    "layered",
+                    "dessert",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She wore a spotted dress.",
+            "adjective": "spotted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a spotted dress] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "spotted",
+                        "description": "She wore a [V: spotted] [ARG1: dress] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "spotted",
+                    "dress",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The sculpture was a carved masterpiece.",
+            "adjective": "carved"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The sculpture] [V: was] [ARG2: a carved masterpiece] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "carved",
+                        "description": "The sculpture was a [V: carved] [ARG1: masterpiece] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "sculpture",
+                    "was",
+                    "a",
+                    "carved",
+                    "masterpiece",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They saw a melted candle.",
+            "adjective": "melted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "saw",
+                        "description": "[ARG0: They] [V: saw] [ARG1: a melted candle] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "melted",
+                        "description": "They saw a [V: melted] [ARG1: candle] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "saw",
+                    "a",
+                    "melted",
+                    "candle",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He had a swollen ankle.",
+            "adjective": "swollen"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a swollen ankle] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "swollen",
+                    "ankle",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She received a framed picture.",
+            "adjective": "framed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "received",
+                        "description": "[ARG0: She] [V: received] [ARG1: a framed picture] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "received",
+                    "a",
+                    "framed",
+                    "picture",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The path was a paved road.",
+            "adjective": "paved"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The path] [V: was] [ARG2: a paved road] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "path",
+                    "was",
+                    "a",
+                    "paved",
+                    "road",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a stitched wound.",
+            "adjective": "stitched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a stitched wound] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "stitched",
+                        "description": "He had a [V: stitched] [ARG1: wound] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "stitched",
+                    "wound",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a tied ribbon.",
+            "adjective": "tied"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a tied ribbon] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "tied",
+                        "description": "She had a [V: tied] [ARG1: ribbon] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "tied",
+                    "ribbon",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The house had a rusted gate.",
+            "adjective": "rusted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The house] [V: had] [ARG1: a rusted gate] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "house",
+                    "had",
+                    "a",
+                    "rusted",
+                    "gate",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They found a locked door.",
+            "adjective": "locked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a locked door] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "locked",
+                    "door",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The book was a bound volume.",
+            "adjective": "bound"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The book] [V: was] [ARG2: a bound volume] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "bound",
+                        "description": "The book was a [V: bound] [ARG1: volume] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "book",
+                    "was",
+                    "a",
+                    "bound",
+                    "volume",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He had a chipped tooth.",
+            "adjective": "chipped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a chipped tooth] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "chipped",
+                        "description": "He had a [V: chipped] [ARG1: tooth] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "chipped",
+                    "tooth",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She wore a jeweled necklace.",
+            "adjective": "jeweled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a jeweled necklace] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "jeweled",
+                    "necklace",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They saw a flooded street.",
+            "adjective": "flooded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "saw",
+                        "description": "[ARG0: They] [V: saw] [ARG1: a flooded street] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "flooded",
+                        "description": "They saw a [V: flooded] [ARG1: street] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "saw",
+                    "a",
+                    "flooded",
+                    "street",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He wore a pressed suit.",
+            "adjective": "pressed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: He] [V: wore] [ARG1: a pressed suit] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "pressed",
+                        "description": "He wore a [V: pressed] [ARG1: suit] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "wore",
+                    "a",
+                    "pressed",
+                    "suit",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The gift was a wrapped present.",
+            "adjective": "wrapped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The gift] [V: was] [ARG2: a wrapped present] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "wrapped",
+                        "description": "The gift was a [V: wrapped] [ARG1: present] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "gift",
+                    "was",
+                    "a",
+                    "wrapped",
+                    "present",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The photo was a blurred image.",
+            "adjective": "blurred"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The photo] [V: was] [ARG2: a blurred image] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "photo",
+                    "was",
+                    "a",
+                    "blurred",
+                    "image",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a stained shirt.",
+            "adjective": "stained"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a stained shirt] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "stained",
+                    "shirt",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They found a decayed tree.",
+            "adjective": "decayed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a decayed tree] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "decayed",
+                    "tree",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The wall had a chipped paint.",
+            "adjective": "chipped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The wall] [V: had] [ARG1: a chipped paint] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "chipped",
+                        "description": "The wall had a [V: chipped] [ARG1: paint] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "wall",
+                    "had",
+                    "a",
+                    "chipped",
+                    "paint",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She wore a quilted jacket.",
+            "adjective": "quilted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a quilted jacket] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "quilted",
+                    "jacket",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The picture was a framed artwork.",
+            "adjective": "framed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The picture] [V: was] [ARG2: a framed artwork] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "picture",
+                    "was",
+                    "a",
+                    "framed",
+                    "artwork",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He used a sharpened pencil.",
+            "adjective": "sharpened"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "used",
+                        "description": "[ARG0: He] [V: used] [ARG1: a sharpened pencil] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "sharpened",
+                        "description": "He used a [V: sharpened] [ARG0: pencil] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG0",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "used",
+                    "a",
+                    "sharpened",
+                    "pencil",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a lighted candle.",
+            "adjective": "lighted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a lighted candle] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "lighted",
+                        "description": "She had a [V: lighted] [ARG1: candle] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "lighted",
+                    "candle",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They found a deserted house.",
+            "adjective": "deserted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a deserted house] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "deserted",
+                    "house",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The glass was a frosted window.",
+            "adjective": "frosted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The glass] [V: was] [ARG2: a frosted window] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "glass",
+                    "was",
+                    "a",
+                    "frosted",
+                    "window",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a trimmed beard.",
+            "adjective": "trimmed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a trimmed beard] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "trimmed",
+                        "description": "He had a [V: trimmed] [ARG1: beard] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "trimmed",
+                    "beard",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a tanned skin.",
+            "adjective": "tanned"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a tanned skin] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "tanned",
+                        "description": "She had a [V: tanned] [ARG1: skin] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "tanned",
+                    "skin",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They saw a bolted door.",
+            "adjective": "bolted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "saw",
+                        "description": "[ARG0: They] [V: saw] [ARG1: a bolted door] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "saw",
+                    "a",
+                    "bolted",
+                    "door",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The table had a varnished surface.",
+            "adjective": "varnished"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The table] [V: had] [ARG1: a varnished surface] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "varnished",
+                        "description": "The table had a [V: varnished] [ARG1: surface] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "table",
+                    "had",
+                    "a",
+                    "varnished",
+                    "surface",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He had a sprained ankle.",
+            "adjective": "sprained"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a sprained ankle] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "sprained",
+                    "ankle",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She had a braided hair.",
+            "adjective": "braided"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a braided hair] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "braided",
+                        "description": "She had a [V: braided] [ARG0: hair] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG0",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "braided",
+                    "hair",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They found a cracked vase.",
+            "adjective": "cracked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a cracked vase] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "cracked",
+                    "vase",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The letter was a folded paper.",
+            "adjective": "folded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The letter] [V: was] [ARG2: a folded paper] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "folded",
+                        "description": "The letter was a [V: folded] [ARG1: paper] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "letter",
+                    "was",
+                    "a",
+                    "folded",
+                    "paper",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He had a sliced bread.",
+            "adjective": "sliced"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a sliced bread] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "sliced",
+                        "description": "He had a [V: sliced] [ARG1: bread] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "sliced",
+                    "bread",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She wore a studded belt.",
+            "adjective": "studded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: She] [V: wore] [ARG1: a studded belt] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wore",
+                    "a",
+                    "studded",
+                    "belt",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They saw a clouded sky.",
+            "adjective": "clouded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "saw",
+                        "description": "[ARG0: They] [V: saw] [ARG1: a clouded sky] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "saw",
+                    "a",
+                    "clouded",
+                    "sky",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a plastered wall.",
+            "adjective": "plastered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a plastered wall] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "plastered",
+                        "description": "He had a [V: plastered] [ARG1: wall] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "plastered",
+                    "wall",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a potted plant.",
+            "adjective": "potted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a potted plant] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "potted",
+                    "plant",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They found a scorched earth.",
+            "adjective": "scorched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a scorched earth] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "scorched",
+                    "earth",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a bandaged wound.",
+            "adjective": "bandaged"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a bandaged wound] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "bandaged",
+                        "description": "He had a [V: bandaged] [ARG1: wound] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "bandaged",
+                    "wound",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a washed face.",
+            "adjective": "washed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a washed face] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "washed",
+                    "face",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "They found a rusted bicycle.",
+            "adjective": "rusted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a rusted bicycle] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "rusted",
+                    "bicycle",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The window had a tinted glass.",
+            "adjective": "tinted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The window] [V: had] [ARG1: a tinted glass] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "tinted",
+                        "description": "The window had a [V: tinted] [ARG0: glass] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG0",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "window",
+                    "had",
+                    "a",
+                    "tinted",
+                    "glass",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He had a waxed car.",
+            "adjective": "waxed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a waxed car] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "waxed",
+                        "description": "He had a [V: waxed] [ARG1: car] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "waxed",
+                    "car",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a glittered nail polish.",
+            "adjective": "glittered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a glittered nail polish] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "glittered",
+                        "description": "She had a [V: glittered] [ARG0: nail] [ARG0: polish] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG0",
+                            "B-ARG0",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "glittered",
+                    "nail",
+                    "polish",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They found a charred wood.",
+            "adjective": "charred"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a charred wood] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "charred",
+                    "wood",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The floor had a polished surface.",
+            "adjective": "polished"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The floor] [V: had] [ARG1: a polished surface] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "floor",
+                    "had",
+                    "a",
+                    "polished",
+                    "surface",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a greased hair.",
+            "adjective": "greased"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a greased hair] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "greased",
+                        "description": "He had a [V: greased] [ARG1: hair] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "greased",
+                    "hair",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a planted garden.",
+            "adjective": "planted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a planted garden] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "planted",
+                        "description": "She had a [V: planted] [ARG1: garden] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "planted",
+                    "garden",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They found a soiled cloth.",
+            "adjective": "soiled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a soiled cloth] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "soiled",
+                    "cloth",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The bottle had a corked lid.",
+            "adjective": "corked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The bottle] [V: had] [ARG1: a corked lid] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "corked",
+                        "description": "The bottle had a [V: corked] [ARG1: lid] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "bottle",
+                    "had",
+                    "a",
+                    "corked",
+                    "lid",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "He had a crumpled paper.",
+            "adjective": "crumpled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a crumpled paper] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "crumpled",
+                    "paper",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She had a scattered room.",
+            "adjective": "scattered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a scattered room] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "scattered",
+                        "description": "She had a [V: scattered] [ARG1: room] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "scattered",
+                    "room",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They found a drained battery.",
+            "adjective": "drained"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a drained battery] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "drained",
+                        "description": "They found a [V: drained] [ARG1: battery] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "drained",
+                    "battery",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The table had a cluttered surface.",
+            "adjective": "cluttered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The table] [V: had] [ARG1: a cluttered surface] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "table",
+                    "had",
+                    "a",
+                    "cluttered",
+                    "surface",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He had a dyed hair.",
+            "adjective": "dyed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: He] [V: had] [ARG1: a dyed hair] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "dyed",
+                        "description": "He had a [V: dyed] [ARG1: hair] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "had",
+                    "a",
+                    "dyed",
+                    "hair",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "She had a stuffed toy.",
+            "adjective": "stuffed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: She] [V: had] [ARG1: a stuffed toy] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "stuffed",
+                        "description": "She had a [V: stuffed] [ARG1: toy] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "had",
+                    "a",
+                    "stuffed",
+                    "toy",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "They found a mended fabric.",
+            "adjective": "mended"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "found",
+                        "description": "[ARG0: They] [V: found] [ARG1: a mended fabric] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "They",
+                    "found",
+                    "a",
+                    "mended",
+                    "fabric",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The window had a shattered glass.",
+            "adjective": "shattered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The window] [V: had] [ARG1: a shattered glass] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "window",
+                    "had",
+                    "a",
+                    "shattered",
+                    "glass",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The garden showcased trimmed bushes.",
+            "adjective": "trimmed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "showcased",
+                        "description": "[ARG0: The garden] [V: showcased] [ARG1: trimmed bushes] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "trimmed",
+                        "description": "[ARG0: The garden showcased] [V: trimmed] [ARG1: bushes] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "garden",
+                    "showcased",
+                    "trimmed",
+                    "bushes",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "An unopened letter lay on the table.",
+            "adjective": "unopened"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "lay",
+                        "description": "[ARG1: An unopened letter] [V: lay] [ARG2: on the table] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "An",
+                    "unopened",
+                    "letter",
+                    "lay",
+                    "on",
+                    "the",
+                    "table",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "A rusted car was parked by the road.",
+            "adjective": "rusted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "A rusted car [V: was] parked by the road .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "parked",
+                        "description": "[ARG1: A rusted car] was [V: parked] [ARG2: by the road] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "rusted",
+                    "car",
+                    "was",
+                    "parked",
+                    "by",
+                    "the",
+                    "road",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The package contained a sealed envelope.",
+            "adjective": "sealed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "contained",
+                        "description": "[ARG0: The package] [V: contained] [ARG1: a sealed envelope] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "sealed",
+                        "description": "The package contained a [V: sealed] [ARG1: envelope] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "package",
+                    "contained",
+                    "a",
+                    "sealed",
+                    "envelope",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "A broken toy was left on the floor.",
+            "adjective": "broken"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "A broken toy [V: was] left on the floor .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "left",
+                        "description": "[ARG1: A broken toy] was [V: left] [ARGM-LOC: on the floor] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "broken",
+                    "toy",
+                    "was",
+                    "left",
+                    "on",
+                    "the",
+                    "floor",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The chef prepared a seasoned dish.",
+            "adjective": "seasoned"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "prepared",
+                        "description": "[ARG0: The chef] [V: prepared] [ARG1: a seasoned dish] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "chef",
+                    "prepared",
+                    "a",
+                    "seasoned",
+                    "dish",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "A beaded necklace was placed in the box.",
+            "adjective": "beaded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "A beaded necklace [V: was] placed in the box .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "placed",
+                        "description": "[ARG1: A beaded necklace] was [V: placed] [ARG2: in the box] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "beaded",
+                    "necklace",
+                    "was",
+                    "placed",
+                    "in",
+                    "the",
+                    "box",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The artist displayed a painted canvas.",
+            "adjective": "painted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "displayed",
+                        "description": "[ARG0: The artist] [V: displayed] [ARG1: a painted canvas] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "painted",
+                        "description": "The artist displayed a [V: painted] [ARG1: canvas] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "artist",
+                    "displayed",
+                    "a",
+                    "painted",
+                    "canvas",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The library contained a stocked shelf.",
+            "adjective": "stocked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "contained",
+                        "description": "[ARG0: The library] [V: contained] [ARG1: a stocked shelf] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "library",
+                    "contained",
+                    "a",
+                    "stocked",
+                    "shelf",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "A cracked egg sat in the carton.",
+            "adjective": "cracked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "sat",
+                        "description": "[ARG1: A cracked egg] [V: sat] [ARG2: in the carton] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "cracked",
+                    "egg",
+                    "sat",
+                    "in",
+                    "the",
+                    "carton",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The musician played a tuned guitar.",
+            "adjective": "tuned"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "played",
+                        "description": "[ARG0: The musician] [V: played] [ARG1: a tuned guitar] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "musician",
+                    "played",
+                    "a",
+                    "tuned",
+                    "guitar",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "A wilted flower lay in the vase.",
+            "adjective": "wilted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "lay",
+                        "description": "[ARG1: A wilted flower] [V: lay] [ARG2: in the vase] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "wilted",
+                    "flower",
+                    "lay",
+                    "in",
+                    "the",
+                    "vase",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The car had tinted windows.",
+            "adjective": "tinted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The car] [V: had] [ARG1: tinted windows] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "tinted",
+                        "description": "[ARG0: The car] had [V: tinted] [ARG1: windows] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "car",
+                    "had",
+                    "tinted",
+                    "windows",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "A cat with a chipped ear was found.",
+            "adjective": "chipped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "chipped",
+                        "description": "A cat with a [V: chipped] [ARG1: ear] was found .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "was",
+                        "description": "A cat with a chipped ear [V: was] found .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "found",
+                        "description": "[ARG1: A cat with a chipped ear] was [V: found] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "cat",
+                    "with",
+                    "a",
+                    "chipped",
+                    "ear",
+                    "was",
+                    "found",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The store displayed a stacked shelf.",
+            "adjective": "stacked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "displayed",
+                        "description": "[ARG2: The store] [V: displayed] [ARG1: a stacked shelf] .",
+                        "tags": [
+                            "B-ARG2",
+                            "I-ARG2",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "stacked",
+                        "description": "The store displayed a [V: stacked] [ARG1: shelf] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "store",
+                    "displayed",
+                    "a",
+                    "stacked",
+                    "shelf",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "A locked door blocked the entrance.",
+            "adjective": "locked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "blocked",
+                        "description": "[ARG0: A locked door] [V: blocked] [ARG1: the entrance] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "locked",
+                    "door",
+                    "blocked",
+                    "the",
+                    "entrance",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The table was covered with a folded cloth.",
+            "adjective": "folded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "[ARG1: The table] [V: was] [ARG2: covered with a folded cloth] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "covered",
+                        "description": "[ARG1: The table] was [V: covered] [ARG2: with a folded cloth] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "folded",
+                        "description": "The table was covered with a [V: folded] [ARG1: cloth] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "table",
+                    "was",
+                    "covered",
+                    "with",
+                    "a",
+                    "folded",
+                    "cloth",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "A frozen river flowed through the town.",
+            "adjective": "frozen"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "flowed",
+                        "description": "[ARG0: A frozen river] [V: flowed] [ARGM-DIR: through the town] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "frozen",
+                    "river",
+                    "flowed",
+                    "through",
+                    "the",
+                    "town",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The museum featured a carved statue.",
+            "adjective": "carved"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "featured",
+                        "description": "[ARG0: The museum] [V: featured] [ARG1: a carved statue] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "carved",
+                        "description": "The museum featured a [V: carved] [ARG1: statue] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "museum",
+                    "featured",
+                    "a",
+                    "carved",
+                    "statue",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "A melted ice cream cone dripped onto the sidewalk.",
+            "adjective": "melted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "melted",
+                        "description": "A [V: melted] [ARG1: ice cream] cone dripped onto the sidewalk .",
+                        "tags": [
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "dripped",
+                        "description": "[ARG1: A melted ice cream cone] [V: dripped] [ARGM-DIR: onto the sidewalk] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "melted",
+                    "ice",
+                    "cream",
+                    "cone",
+                    "dripped",
+                    "onto",
+                    "the",
+                    "sidewalk",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The stage was set with lighted candles.",
+            "adjective": "lighted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "The stage [V: was] set with lighted candles .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "set",
+                        "description": "[ARG1: The stage] was [V: set] [ARG2: with lighted candles] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "lighted",
+                        "description": "The stage was set with [V: lighted] [ARG1: candles] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "stage",
+                    "was",
+                    "set",
+                    "with",
+                    "lighted",
+                    "candles",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "A bruised apple rolled off the counter.",
+            "adjective": "bruised"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "rolled",
+                        "description": "[ARG0: A bruised apple] [V: rolled] [ARGM-DIR: off the counter] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "bruised",
+                    "apple",
+                    "rolled",
+                    "off",
+                    "the",
+                    "counter",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The kitchen was filled with the smell of baked bread.",
+            "adjective": "baked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "The kitchen [V: was] filled with the smell of baked bread .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "filled",
+                        "description": "[ARG1: The kitchen] was [V: filled] [ARG2: with the smell of baked bread] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "kitchen",
+                    "was",
+                    "filled",
+                    "with",
+                    "the",
+                    "smell",
+                    "of",
+                    "baked",
+                    "bread",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "A faded photograph hung on the wall.",
+            "adjective": "faded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "hung",
+                        "description": "[ARG1: A faded photograph] [V: hung] [ARG2: on the wall] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "faded",
+                    "photograph",
+                    "hung",
+                    "on",
+                    "the",
+                    "wall",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The house had a thatched roof.",
+            "adjective": "thatched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "had",
+                        "description": "[ARG0: The house] [V: had] [ARG1: a thatched roof] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "house",
+                    "had",
+                    "a",
+                    "thatched",
+                    "roof",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "A pot with a cracked handle sat on the stove.",
+            "adjective": "cracked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "sat",
+                        "description": "[ARG1: A pot with a cracked handle] [V: sat] [ARG2: on the stove] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "pot",
+                    "with",
+                    "a",
+                    "cracked",
+                    "handle",
+                    "sat",
+                    "on",
+                    "the",
+                    "stove",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The cat perched on a cushioned chair.",
+            "adjective": "cushioned"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "perched",
+                        "description": "[ARG1: The cat] [V: perched] [ARG2: on a cushioned chair] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "cat",
+                    "perched",
+                    "on",
+                    "a",
+                    "cushioned",
+                    "chair",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "A dried leaf crunched underfoot.",
+            "adjective": "dried"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "dried",
+                        "description": "A [V: dried] [ARG1: leaf] crunched underfoot .",
+                        "tags": [
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "crunched",
+                        "description": "[ARG0: A dried leaf] [V: crunched] [ARGM-PRD: underfoot] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-PRD",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "dried",
+                    "leaf",
+                    "crunched",
+                    "underfoot",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "The room was decorated with draped curtains.",
+            "adjective": "draped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "was",
+                        "description": "The room [V: was] decorated with draped curtains .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "decorated",
+                        "description": "[ARG1: The room] was [V: decorated] [ARG2: with draped curtains] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "draped",
+                        "description": "The room was decorated with [V: draped] [ARG1: curtains] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "room",
+                    "was",
+                    "decorated",
+                    "with",
+                    "draped",
+                    "curtains",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "sentence": "A young girl wore a ribboned dress.",
+            "adjective": "ribboned"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wore",
+                        "description": "[ARG0: A young girl] [V: wore] [ARG1: a ribboned dress] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "A",
+                    "young",
+                    "girl",
+                    "wore",
+                    "a",
+                    "ribboned",
+                    "dress",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    }
+]

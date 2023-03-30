@@ -1,0 +1,233 @@
+[
+  { "sentence": "She wore a torn dress.", "adj": "torn" },
+  { "sentence": "The lost dog was found.", "adj": "lost" },
+  { "sentence": "He received a broken toy.", "adj": "broken" },
+  { "sentence": "She bought a used car.", "adj": "used" },
+  { "sentence": "The film had a twisted plot.", "adj": "twisted" },
+  { "sentence": "They served a cooked meal.", "adj": "cooked" },
+  {
+    "sentence": "The letter was written in a coded language.",
+    "adj": "coded"
+  },
+  { "sentence": "She gave him a puzzled look.", "adj": "puzzled" },
+  { "sentence": "He held a closed umbrella.", "adj": "closed" },
+  { "sentence": "They had mixed greens.", "adj": "mixed" },
+  { "sentence": "The room has a painted wall.", "adj": "painted" },
+  { "sentence": "He offered a fixed price.", "adj": "fixed" },
+  { "sentence": "She wore a striped shirt.", "adj": "striped" },
+  { "sentence": "They found a buried treasure.", "adj": "buried" },
+  { "sentence": "She had a cracked phone screen.", "adj": "cracked" },
+  { "sentence": "He owns a trained dog.", "adj": "trained" },
+  { "sentence": "She wore a fitted dress.", "adj": "fitted" },
+  { "sentence": "He has a shaved beard.", "adj": "shaved" },
+  { "sentence": "She found a wilted flower.", "adj": "wilted" },
+  { "sentence": "The box was sealed tightly.", "adj": "sealed" },
+  { "sentence": "He had a bruised arm.", "adj": "bruised" },
+  { "sentence": "The window was shattered glass.", "adj": "shattered" },
+  { "sentence": "The dress was a folded piece.", "adj": "folded" },
+  {
+    "sentence": "They ate a grilled cheese sandwich.",
+    "adj": "grilled"
+  },
+  {
+    "sentence": "The contract was a signed document.",
+    "adj": "signed"
+  },
+  { "sentence": "She read a printed book.", "adj": "printed" },
+  { "sentence": "He wore a washed shirt.", "adj": "washed" },
+  {
+    "sentence": "The computer has a damaged screen.",
+    "adj": "damaged"
+  },
+  { "sentence": "She had a dried flower bouquet.", "adj": "dried" },
+  { "sentence": "The package was wrapped tightly.", "adj": "wrapped" },
+  { "sentence": "He received a polished award.", "adj": "polished" },
+  { "sentence": "She wore a knitted scarf.", "adj": "knitted" },
+  {
+    "sentence": "The table had a scratched surface.",
+    "adj": "scratched"
+  },
+  { "sentence": "He had a faded tattoo.", "adj": "faded" },
+  { "sentence": "They found a frozen lake.", "adj": "frozen" },
+  { "sentence": "The cake was a layered dessert.", "adj": "layered" },
+  { "sentence": "She wore a spotted dress.", "adj": "spotted" },
+  {
+    "sentence": "The sculpture was a carved masterpiece.",
+    "adj": "carved"
+  },
+  { "sentence": "They saw a melted candle.", "adj": "melted" },
+  { "sentence": "He had a swollen ankle.", "adj": "swollen" },
+  { "sentence": "She received a framed picture.", "adj": "framed" },
+  { "sentence": "The path was a paved road.", "adj": "paved" },
+  { "sentence": "He had a stitched wound.", "adj": "stitched" },
+  { "sentence": "She had a tied ribbon.", "adj": "tied" },
+  { "sentence": "The house had a rusted gate.", "adj": "rusted" },
+  { "sentence": "They found a locked door.", "adj": "locked" },
+  { "sentence": "The book was a bound volume.", "adj": "bound" },
+  { "sentence": "He had a chipped tooth.", "adj": "chipped" },
+  { "sentence": "She wore a jeweled necklace.", "adj": "jeweled" },
+  { "sentence": "They saw a flooded street.", "adj": "flooded" },
+  { "sentence": "He wore a pressed suit.", "adj": "pressed" },
+  { "sentence": "The gift was a wrapped present.", "adj": "wrapped" },
+  { "sentence": "The photo was a blurred image.", "adj": "blurred" },
+  { "sentence": "He had a stained shirt.", "adj": "stained" },
+  { "sentence": "They found a decayed tree.", "adj": "decayed" },
+  { "sentence": "The wall had a chipped paint.", "adj": "chipped" },
+  { "sentence": "She wore a quilted jacket.", "adj": "quilted" },
+  { "sentence": "The picture was a framed artwork.", "adj": "framed" },
+  { "sentence": "He used a sharpened pencil.", "adj": "sharpened" },
+  { "sentence": "She had a lighted candle.", "adj": "lighted" },
+  { "sentence": "They found a deserted house.", "adj": "deserted" },
+  { "sentence": "The glass was a frosted window.", "adj": "frosted" },
+  { "sentence": "He had a trimmed beard.", "adj": "trimmed" },
+  { "sentence": "She had a tanned skin.", "adj": "tanned" },
+  { "sentence": "They saw a bolted door.", "adj": "bolted" },
+  {
+    "sentence": "The table had a varnished surface.",
+    "adj": "varnished"
+  },
+  { "sentence": "He had a sprained ankle.", "adj": "sprained" },
+  { "sentence": "She had a braided hair.", "adj": "braided" },
+  { "sentence": "They found a cracked vase.", "adj": "cracked" },
+  { "sentence": "The letter was a folded paper.", "adj": "folded" },
+  { "sentence": "He had a sliced bread.", "adj": "sliced" },
+  { "sentence": "She wore a studded belt.", "adj": "studded" },
+  { "sentence": "They saw a clouded sky.", "adj": "clouded" },
+  { "sentence": "He had a plastered wall.", "adj": "plastered" },
+  { "sentence": "She had a potted plant.", "adj": "potted" },
+  { "sentence": "They found a scorched earth.", "adj": "scorched" },
+  { "sentence": "He had a bandaged wound.", "adj": "bandaged" },
+  { "sentence": "She had a washed face.", "adj": "washed" },
+  { "sentence": "They found a rusted bicycle.", "adj": "rusted" },
+  { "sentence": "The window had a tinted glass.", "adj": "tinted" },
+  { "sentence": "He had a waxed car.", "adj": "waxed" },
+  {
+    "sentence": "She had a glittered nail polish.",
+    "adj": "glittered"
+  },
+  { "sentence": "They found a charred wood.", "adj": "charred" },
+  {
+    "sentence": "The floor had a polished surface.",
+    "adj": "polished"
+  },
+  { "sentence": "He had a greased hair.", "adj": "greased" },
+  { "sentence": "She had a planted garden.", "adj": "planted" },
+  { "sentence": "They found a soiled cloth.", "adj": "soiled" },
+  { "sentence": "The bottle had a corked lid.", "adj": "corked" },
+  { "sentence": "He had a crumpled paper.", "adj": "crumpled" },
+  { "sentence": "She had a scattered room.", "adj": "scattered" },
+  { "sentence": "They found a drained battery.", "adj": "drained" },
+  {
+    "sentence": "The table had a cluttered surface.",
+    "adj": "cluttered"
+  },
+  { "sentence": "He had a dyed hair.", "adj": "dyed" },
+  { "sentence": "She had a stuffed toy.", "adj": "stuffed" },
+  { "sentence": "They found a mended fabric.", "adj": "mended" },
+  {
+    "sentence": "The window had a shattered glass.",
+    "adj": "shattered"
+  },
+  {
+    "sentence": "The garden showcased trimmed bushes.",
+    "adj": "trimmed"
+  },
+  {
+    "sentence": "An unopened letter lay on the table.",
+    "adj": "unopened"
+  },
+  {
+    "sentence": "A rusted car was parked by the road.",
+    "adj": "rusted"
+  },
+  {
+    "sentence": "The package contained a sealed envelope.",
+    "adj": "sealed"
+  },
+  {
+    "sentence": "A broken toy was left on the floor.",
+    "adj": "broken"
+  },
+  {
+    "sentence": "The chef prepared a seasoned dish.",
+    "adj": "seasoned"
+  },
+  {
+    "sentence": "A beaded necklace was placed in the box.",
+    "adj": "beaded"
+  },
+  {
+    "sentence": "The artist displayed a painted canvas.",
+    "adj": "painted"
+  },
+  {
+    "sentence": "The library contained a stocked shelf.",
+    "adj": "stocked"
+  },
+  { "sentence": "A cracked egg sat in the carton.", "adj": "cracked" },
+  { "sentence": "The musician played a tuned guitar.", "adj": "tuned" },
+  { "sentence": "A wilted flower lay in the vase.", "adj": "wilted" },
+  { "sentence": "The car had tinted windows.", "adj": "tinted" },
+  {
+    "sentence": "A cat with a chipped ear was found.",
+    "adj": "chipped"
+  },
+  {
+    "sentence": "The store displayed a stacked shelf.",
+    "adj": "stacked"
+  },
+  {
+    "sentence": "A locked door blocked the entrance.",
+    "adj": "locked"
+  },
+  {
+    "sentence": "The table was covered with a folded cloth.",
+    "adj": "folded"
+  },
+  {
+    "sentence": "A frozen river flowed through the town.",
+    "adj": "frozen"
+  },
+  {
+    "sentence": "The museum featured a carved statue.",
+    "adj": "carved"
+  },
+  {
+    "sentence": "A melted ice cream cone dripped onto the sidewalk.",
+    "adj": "melted"
+  },
+  {
+    "sentence": "The stage was set with lighted candles.",
+    "adj": "lighted"
+  },
+  {
+    "sentence": "A bruised apple rolled off the counter.",
+    "adj": "bruised"
+  },
+  {
+    "sentence": "The kitchen was filled with the smell of baked bread.",
+    "adj": "baked"
+  },
+  {
+    "sentence": "A faded photograph hung on the wall.",
+    "adj": "faded"
+  },
+  { "sentence": "The house had a thatched roof.", "adj": "thatched" },
+  {
+    "sentence": "A pot with a cracked handle sat on the stove.",
+    "adj": "cracked"
+  },
+  {
+    "sentence": "The cat perched on a cushioned chair.",
+    "adj": "cushioned"
+  },
+  { "sentence": "A dried leaf crunched underfoot.", "adj": "dried" },
+  {
+    "sentence": "The room was decorated with draped curtains.",
+    "adj": "draped"
+  },
+  {
+    "sentence": "A young girl wore a ribboned dress.",
+    "adj": "ribboned"
+  }
+]

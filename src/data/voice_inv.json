@@ -1,0 +1,358 @@
+[
+  {
+    "active": "The teacher graded the exams.",
+    "passive": "The exams were graded by the teacher."
+  },
+  {
+    "active": "The artist painted the picture.",
+    "passive": "The picture was painted by the artist."
+  },
+  {
+    "active": "The waiter served the food.",
+    "passive": "The food was served by the waiter."
+  },
+  {
+    "active": "The company hired a new employee.",
+    "passive": "A new employee was hired by the company."
+  },
+  {
+    "active": "The dentist cleaned my teeth.",
+    "passive": "My teeth were cleaned by the dentist."
+  },
+  {
+    "active": "The chef cooked the meal.",
+    "passive": "The meal was cooked by the chef."
+  },
+  {
+    "active": "The gardener watered the plants.",
+    "passive": "The plants were watered by the gardener."
+  },
+  {
+    "active": "The police officer arrested the suspect.",
+    "passive": "The suspect was arrested by the police officer."
+  },
+  {
+    "active": "The company released a new product.",
+    "passive": "A new product was released by the company."
+  },
+  {
+    "active": "The athlete broke the world record.",
+    "passive": "The world record was broken by the athlete."
+  },
+  {
+    "active": "The singer performed the song.",
+    "passive": "The song was performed by the singer."
+  },
+  {
+    "active": "The team won the championship.",
+    "passive": "The championship was won by the team."
+  },
+  {
+    "active": "The construction crew built the bridge.",
+    "passive": "The bridge was built by the construction crew."
+  },
+  {
+    "active": "The programmer wrote the code.",
+    "passive": "The code was written by the programmer."
+  },
+  {
+    "active": "The doctor examined the patient.",
+    "passive": "The patient was examined by the doctor."
+  },
+  {
+    "active": "The company produced the movie.",
+    "passive": "The movie was produced by the company."
+  },
+  {
+    "active": "The teacher taught the lesson.",
+    "passive": "The lesson was taught by the teacher."
+  },
+  {
+    "active": "The photographer took the picture.",
+    "passive": "The picture was taken by the photographer."
+  },
+  {
+    "active": "The company sold the product.",
+    "passive": "The product was sold by the company."
+  },
+  {
+    "active": "The customer returned the item.",
+    "passive": "The item was returned by the customer."
+  },
+  {
+    "active": "The pilot flew the plane.",
+    "passive": "The plane was flown by the pilot."
+  },
+  {
+    "active": "The company developed the software.",
+    "passive": "The software was developed by the company."
+  },
+  {
+    "active": "The tailor altered the dress.",
+    "passive": "The dress was altered by the tailor."
+  },
+  {
+    "active": "The student completed the assignment.",
+    "passive": "The assignment was completed by the student."
+  },
+  {
+    "active": "The company installed the software.",
+    "passive": "The software was installed by the company."
+  },
+  {
+    "active": "The doctor prescribed the medication.",
+    "passive": "The medication was prescribed by the doctor."
+  },
+  {
+    "active": "The team designed the website.",
+    "passive": "The website was designed by the team."
+  },
+  {
+    "active": "The chef prepared the meal.",
+    "passive": "The meal was prepared by the chef."
+  },
+  {
+    "active": "The company shipped the product.",
+    "passive": "The product was shipped by the company."
+  },
+  {
+    "active": "The athlete broke the world record.",
+    "passive": "The world record was broken by the athlete."
+  },
+  {
+    "active": "The artist created the sculpture.",
+    "passive": "The sculpture was created by the artist."
+  },
+  {
+    "active": "The police officer gave the ticket.",
+    "passive": "The ticket was given by the police officer."
+  },
+  {
+    "active": "The company offered the discount.",
+    "passive": "The discount was offered by the company."
+  },
+  {
+    "active": "The journalist wrote the article.",
+    "passive": "The article was written by the journalist."
+  },
+  {
+    "active": "The company launched the product.",
+    "passive": "The product was launched by the company."
+  },
+  {
+    "active": "The driver delivered the package.",
+    "passive": "The package was delivered by the driver."
+  },
+  {
+    "active": "The team won the game.",
+    "passive": "The game was won by the team."
+  },
+  {
+    "active": "The company created the advertisement.",
+    "passive": "The advertisement was created by the company."
+  },
+  {
+    "active": "The lawyer defended the client.",
+    "passive": "The client was defended by the lawyer."
+  },
+  {
+    "active": "The company designed the product.",
+    "passive": "The product was designed by the company."
+  },
+  {
+    "active": "The actress performed the role.",
+    "passive": "The role was performed by the actress."
+  },
+  {
+    "active": "The company manufactured the product.",
+    "passive": "The product was manufactured by the company."
+  },
+  {
+    "active": "The company developed the website.",
+    "passive": "The website was developed by the company."
+  },
+  {
+    "active": "The actor played the character.",
+    "passive": "The character was played by the actor."
+  },
+  {
+    "active": "The artist painted a portrait of the model.",
+    "passive": "A portrait of the model was painted by the artist."
+  },
+  {
+    "active": "The waiter served the food to the customer.",
+    "passive": "The food was served to the customer by the waiter."
+  },
+  {
+    "active": "The doctor performed the surgery on the patient.",
+    "passive": "The surgery was performed on the patient by the doctor."
+  },
+  {
+    "active": "The writer submitted the manuscript to the publisher.",
+    "passive": "The manuscript was submitted to the publisher by the writer."
+  },
+  {
+    "active": "The chef cooked a delicious meal for the guests.",
+    "passive": "A delicious meal was cooked for the guests by the chef."
+  },
+  {
+    "active": "The police officer arrested the suspect for the crime.",
+    "passive": "The suspect was arrested for the crime by the police officer."
+  },
+  {
+    "active": "The construction worker built a new skyscraper in the city.",
+    "passive": "A new skyscraper was built in the city by the construction worker."
+  },
+  {
+    "active": "The teacher graded the students' papers.",
+    "passive": "The students' papers were graded by the teacher."
+  },
+  {
+    "active": "The company sold a million units of their product.",
+    "passive": "A million units of the product were sold by the company."
+  },
+  {
+    "active": "The gardener planted the flowers in the garden.",
+    "passive": "The flowers were planted in the garden by the gardener."
+  },
+  {
+    "active": "The actor played the lead role in the movie.",
+    "passive": "The lead role in the movie was played by the actor."
+  },
+  {
+    "active": "The company signed a new partnership agreement with a major client.",
+    "passive": "A new partnership agreement with a major client was signed by the company."
+  },
+  {
+    "active": "The dentist extracted the patient's tooth.",
+    "passive": "The patient's tooth was extracted by the dentist."
+  },
+  {
+    "active": "The artist sculpted a statue out of marble.",
+    "passive": "A statue out of marble was sculpted by the artist."
+  },
+  {
+    "active": "The company designed a new logo for their brand.",
+    "passive": "A new logo for their brand was designed by the company."
+  },
+  {
+    "active": "The scientist discovered a new species of butterfly.",
+    "passive": "A new species of butterfly was discovered by the scientist."
+  },
+  {
+    "active": "The musician composed a new symphony for the orchestra.",
+    "passive": "A new symphony for the orchestra was composed by the musician."
+  },
+  {
+    "active": "The company implemented a new policy for employee benefits.",
+    "passive": "A new policy for employee benefits was implemented by the company."
+  },
+  {
+    "active": "The athlete broke the world record for the marathon.",
+    "passive": "The world record for the marathon was broken by the athlete."
+  },
+  {
+    "active": "The company launched a new line of luxury products.",
+    "passive": "A new line of luxury products was launched by the company."
+  },
+  {
+    "active": "The artist drew a portrait of the city skyline.",
+    "passive": "A portrait of the city skyline was drawn by the artist."
+  },
+  {
+    "active": "The company donated a large sum of money to charity.",
+    "passive": "A large sum of money was donated to charity by the company."
+  },
+  {
+    "active": "The teacher explained the lesson to the students.",
+    "passive": "The lesson was explained to the students by the teacher."
+  },
+  {
+    "active": "The athlete lifted the weights during the competition.",
+    "passive": "The weights were lifted during the competition by the athlete."
+  },
+  {
+    "active": "The gardener pruned the bushes in the backyard.",
+    "passive": "The bushes in the backyard were pruned by the gardener."
+  },
+  {
+    "active": "The musician played the guitar during the concert.",
+    "passive": "The guitar was played during the concert by the musician."
+  },
+  {
+    "active": "The waiter took the order from the table of diners.",
+    "passive": "The order was taken from the table of diners by the waiter."
+  },
+  {
+    "active": "The artist drew a sketch of the mountain landscape.",
+    "passive": "A sketch of the mountain landscape was drawn by the artist."
+  },
+  {
+    "active": "The teacher assigned the homework to the students.",
+    "passive": "The homework was assigned to the students by the teacher."
+  },
+  {
+    "active": "The writer published the book under their own name.",
+    "passive": "The book was published under their own name by the writer."
+  },
+  {
+    "active": "The doctor prescribed medication to the patient.",
+    "passive": "Medication was prescribed to the patient by the doctor."
+  },
+  {
+    "active": "The police officer issued a speeding ticket to the driver.",
+    "passive": "A speeding ticket was issued to the driver by the police officer."
+  },
+  {
+    "active": "The construction worker operated the heavy machinery at the construction site.",
+    "passive": "The heavy machinery at the construction site was operated by the construction worker."
+  },
+  {
+    "active": "The chef seasoned the dish with a special blend of spices.",
+    "passive": "The dish was seasoned with a special blend of spices by the chef."
+  },
+  {
+    "active": "The accountant prepared the financial statements for the client.",
+    "passive": "The financial statements were prepared for the client by the accountant."
+  },
+  {
+    "active": "The photographer captured a stunning landscape photograph.",
+    "passive": "A stunning landscape photograph was captured by the photographer."
+  },
+  {
+    "active": "The singer performed the song on stage in front of a live audience.",
+    "passive": "The song was performed on stage in front of a live audience by the singer."
+  },
+  {
+    "active": "The professor taught the lecture to the students.",
+    "passive": "The lecture was taught to the students by the professor."
+  },
+  {
+    "active": "The electrician fixed the wiring in the building.",
+    "passive": "The wiring in the building was fixed by the electrician."
+  },
+  {
+    "active": "The coach trained the team for the upcoming game.",
+    "passive": "The team was trained for the upcoming game by the coach."
+  },
+  {
+    "active": "The designer created a new logo for the client's brand.",
+    "passive": "A new logo for the client's brand was created by the designer."
+  },
+  {
+    "active": "The scientist conducted experiments in the lab.",
+    "passive": "Experiments were conducted in the lab by the scientist."
+  },
+  {
+    "active": "The pilot flew the plane across the ocean.",
+    "passive": "The plane was flown across the ocean by the pilot."
+  },
+  {
+    "active": "The hairdresser cut and styled the client's hair.",
+    "passive": "The client's hair was cut and styled by the hairdresser."
+  },
+  {
+    "active": "The artist painted a mural on the side of the building.",
+    "passive": "A mural on the side of the building was painted by the artist."
+  }
+]

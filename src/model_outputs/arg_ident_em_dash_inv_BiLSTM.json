@@ -1,0 +1,4248 @@
+[
+    {
+        "input": {
+            "original": "She sang the song in front of a large audience.",
+            "em_dash": "She sang the song\u2014beautifully, powerfully, and passionately\u2014in front of a large audience."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "sang",
+                        "description": "[ARG0: She] [V: sang] [ARG1: the song] [ARGM-LOC: in front of a large audience] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "sang",
+                    "the",
+                    "song",
+                    "in",
+                    "front",
+                    "of",
+                    "a",
+                    "large",
+                    "audience",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "sang",
+                        "description": "[ARG0: She] [V: sang] [ARG1: the song \u2014] [ARGM-MNR: beautifully , powerfully , and passionately \u2014] [ARGM-LOC: in front of a large audience] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "sang",
+                    "the",
+                    "song",
+                    "\u2014",
+                    "beautifully",
+                    ",",
+                    "powerfully",
+                    ",",
+                    "and",
+                    "passionately",
+                    "\u2014",
+                    "in",
+                    "front",
+                    "of",
+                    "a",
+                    "large",
+                    "audience",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The car stopped at the red light.",
+            "em_dash": "The car stopped\u2014suddenly, unexpectedly, and dangerously\u2014at the red light."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "stopped",
+                        "description": "[ARG1: The car] [V: stopped] [ARGM-LOC: at the red light] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "car",
+                    "stopped",
+                    "at",
+                    "the",
+                    "red",
+                    "light",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "stopped",
+                        "description": "[ARG0: The car] [V: stopped] [ARG1: \u2014] [ARGM-MNR: suddenly] , [ARGM-MNR: unexpectedly , and dangerously] [ARGM-ADV: \u2014 at the red light] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "car",
+                    "stopped",
+                    "\u2014",
+                    "suddenly",
+                    ",",
+                    "unexpectedly",
+                    ",",
+                    "and",
+                    "dangerously",
+                    "\u2014",
+                    "at",
+                    "the",
+                    "red",
+                    "light",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "He ran the race to win the first prize.",
+            "em_dash": "He ran the race\u2014fast, steady, and determined\u2014to win the first prize."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "ran",
+                        "description": "[ARG0: He] [V: ran] [ARG1: the race] [ARGM-PRP: to win the first prize] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "win",
+                        "description": "[ARG0: He] ran the race to [V: win] [ARG1: the first prize] .",
+                        "tags": [
+                            "B-ARG0",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "ran",
+                    "the",
+                    "race",
+                    "to",
+                    "win",
+                    "the",
+                    "first",
+                    "prize",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "ran",
+                        "description": "[ARG0: He] [V: ran] [ARG1: the race] [ARGM-MNR: \u2014 fast , steady] , and determined \u2014 to win the first prize .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "determined",
+                        "description": "[ARG0: He] ran the race \u2014 fast , steady , and [V: determined] [ARG1: \u2014] [ARG2: to win the first prize] .",
+                        "tags": [
+                            "B-ARG0",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "win",
+                        "description": "He ran the race \u2014 fast , steady , and determined \u2014 to [V: win] [ARG1: the first prize] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "ran",
+                    "the",
+                    "race",
+                    "\u2014",
+                    "fast",
+                    ",",
+                    "steady",
+                    ",",
+                    "and",
+                    "determined",
+                    "\u2014",
+                    "to",
+                    "win",
+                    "the",
+                    "first",
+                    "prize",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "The baby cried in her mother's arms.",
+            "em_dash": "The baby cried\u2014loudly, uncontrollably, and incessantly\u2014in her mother's arms."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "cried",
+                        "description": "[ARG0: The baby] [V: cried] [ARGM-MNR: in her mother 's arms] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "baby",
+                    "cried",
+                    "in",
+                    "her",
+                    "mother",
+                    "'s",
+                    "arms",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "cried",
+                        "description": "[ARG0: The baby] [V: cried] [ARGM-MNR: \u2014] [ARGM-MNR: loudly] , [ARGM-MNR: uncontrollably] , and incessantly \u2014 in her mother 's arms .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "baby",
+                    "cried",
+                    "\u2014",
+                    "loudly",
+                    ",",
+                    "uncontrollably",
+                    ",",
+                    "and",
+                    "incessantly",
+                    "\u2014",
+                    "in",
+                    "her",
+                    "mother",
+                    "'s",
+                    "arms",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "She cooked the dinner for her friends.",
+            "em_dash": "She cooked the dinner\u2014deliciously, creatively, and authentically\u2014for her friends."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "cooked",
+                        "description": "[ARG0: She] [V: cooked] [ARG1: the dinner] [ARGM-PNC: for her friends] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "cooked",
+                    "the",
+                    "dinner",
+                    "for",
+                    "her",
+                    "friends",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "cooked",
+                        "description": "[ARG0: She] [V: cooked] [ARG1: the dinner] [ARGM-MNR: \u2014 deliciously , creatively , and authentically \u2014] [ARG2: for her friends] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "cooked",
+                    "the",
+                    "dinner",
+                    "\u2014",
+                    "deliciously",
+                    ",",
+                    "creatively",
+                    ",",
+                    "and",
+                    "authentically",
+                    "\u2014",
+                    "for",
+                    "her",
+                    "friends",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The sun set over the horizon.",
+            "em_dash": "The sun set\u2014slowly, gradually, and beautifully\u2014over the horizon."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "set",
+                        "description": "[ARG0: The sun] [V: set] [ARG2: over the horizon] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "sun",
+                    "set",
+                    "over",
+                    "the",
+                    "horizon",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "set",
+                        "description": "[ARG0: The sun] [V: set] [ARG1: \u2014] [ARGM-MNR: slowly] , [ARGM-MNR: gradually , and beautifully \u2014 over the horizon] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "sun",
+                    "set",
+                    "\u2014",
+                    "slowly",
+                    ",",
+                    "gradually",
+                    ",",
+                    "and",
+                    "beautifully",
+                    "\u2014",
+                    "over",
+                    "the",
+                    "horizon",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "He danced the waltz with his partner.",
+            "em_dash": "He danced the waltz\u2014gracefully, elegantly, and smoothly\u2014with his partner."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "danced",
+                        "description": "[ARG0: He] [V: danced] [ARG1: the waltz] [ARGM-MNR: with his partner] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "danced",
+                    "the",
+                    "waltz",
+                    "with",
+                    "his",
+                    "partner",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "danced",
+                        "description": "[ARG0: He] [V: danced] [ARG1: the waltz \u2014] [ARGM-MNR: gracefully] , [ARGM-MNR: elegantly , and smoothly \u2014 with his partner] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "danced",
+                    "the",
+                    "waltz",
+                    "\u2014",
+                    "gracefully",
+                    ",",
+                    "elegantly",
+                    ",",
+                    "and",
+                    "smoothly",
+                    "\u2014",
+                    "with",
+                    "his",
+                    "partner",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The computer crashed while he was working.",
+            "em_dash": "The computer crashed\u2014abruptly, unexpectedly, and frustratingly\u2014while he was working."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "crashed",
+                        "description": "[ARG1: The computer] [V: crashed] [ARGM-TMP: while he was working] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "was",
+                        "description": "The computer crashed while he [V: was] working .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "working",
+                        "description": "The computer crashed while [ARG0: he] was [V: working] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-ARG0",
+                            "O",
+                            "B-V",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "computer",
+                    "crashed",
+                    "while",
+                    "he",
+                    "was",
+                    "working",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "crashed",
+                        "description": "[ARG0: The computer] [V: crashed] [ARG1: \u2014] [ARGM-MNR: abruptly] , [ARGM-MNR: unexpectedly , and frustratingly \u2014 while he was working] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "was",
+                        "description": "The computer crashed \u2014 abruptly , unexpectedly , and frustratingly \u2014 while he [V: was] working .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "working",
+                        "description": "The computer crashed \u2014 abruptly , unexpectedly , and frustratingly \u2014 while [ARG0: he] was [V: working] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-ARG0",
+                            "O",
+                            "B-V",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "computer",
+                    "crashed",
+                    "\u2014",
+                    "abruptly",
+                    ",",
+                    "unexpectedly",
+                    ",",
+                    "and",
+                    "frustratingly",
+                    "\u2014",
+                    "while",
+                    "he",
+                    "was",
+                    "working",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "She wrote the story for her readers.",
+            "em_dash": "She wrote the story\u2014imaginatively, passionately, and skillfully\u2014for her readers."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "wrote",
+                        "description": "[ARG0: She] [V: wrote] [ARG1: the story] [ARGM-PNC: for her readers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wrote",
+                    "the",
+                    "story",
+                    "for",
+                    "her",
+                    "readers",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "wrote",
+                        "description": "[ARG0: She] [V: wrote] [ARG1: the story] [ARGM-MNR: \u2014 imaginatively , passionately , and skillfully \u2014 for her readers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wrote",
+                    "the",
+                    "story",
+                    "\u2014",
+                    "imaginatively",
+                    ",",
+                    "passionately",
+                    ",",
+                    "and",
+                    "skillfully",
+                    "\u2014",
+                    "for",
+                    "her",
+                    "readers",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The storm raged throughout the night.",
+            "em_dash": "The storm raged\u2014fiercely, violently, and relentlessly\u2014throughout the night."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "raged",
+                        "description": "[ARG0: The storm] [V: raged] [ARGM-TMP: throughout the night] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "storm",
+                    "raged",
+                    "throughout",
+                    "the",
+                    "night",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "raged",
+                        "description": "[ARG0: The storm] [V: raged] [ARG1: \u2014] [ARGM-MNR: fiercely] , [ARGM-MNR: violently , and relentlessly \u2014] [ARGM-TMP: throughout] the night .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARGM-TMP",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "storm",
+                    "raged",
+                    "\u2014",
+                    "fiercely",
+                    ",",
+                    "violently",
+                    ",",
+                    "and",
+                    "relentlessly",
+                    "\u2014",
+                    "throughout",
+                    "the",
+                    "night",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He solved the puzzle in record time.",
+            "em_dash": "He solved the puzzle\u2014cleverly, methodically, and confidently\u2014in record time."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "solved",
+                        "description": "[ARG0: He] [V: solved] [ARG1: the puzzle] [ARGM-MNR: in record time] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "solved",
+                    "the",
+                    "puzzle",
+                    "in",
+                    "record",
+                    "time",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "solved",
+                        "description": "[ARG0: He] [V: solved] [ARG1: the puzzle] [ARG2: \u2014 cleverly] , [ARGM-MNR: methodically , and] confidently \u2014 in record time .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "solved",
+                    "the",
+                    "puzzle",
+                    "\u2014",
+                    "cleverly",
+                    ",",
+                    "methodically",
+                    ",",
+                    "and",
+                    "confidently",
+                    "\u2014",
+                    "in",
+                    "record",
+                    "time",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "The tree fell blocking the road.",
+            "em_dash": "The tree fell\u2014suddenly, loudly, and dangerously\u2014blocking the road."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "fell",
+                        "description": "[ARG1: The tree] [V: fell] [ARGM-ADV: blocking the road] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "blocking",
+                        "description": "[ARG0: The tree] fell [V: blocking] [ARG1: the road] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "tree",
+                    "fell",
+                    "blocking",
+                    "the",
+                    "road",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "fell",
+                        "description": "[ARG1: The tree] [V: fell] [ARG2: \u2014] [ARGM-TMP: suddenly] , [ARGM-MNR: loudly , and dangerously \u2014 blocking the road] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "B-ARGM-TMP",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "blocking",
+                        "description": "The tree fell \u2014 suddenly , loudly , and [ARGM-MNR: dangerously \u2014] [V: blocking] [ARG1: the road] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "tree",
+                    "fell",
+                    "\u2014",
+                    "suddenly",
+                    ",",
+                    "loudly",
+                    ",",
+                    "and",
+                    "dangerously",
+                    "\u2014",
+                    "blocking",
+                    "the",
+                    "road",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "She painted the portrait of her subject.",
+            "em_dash": "She painted the portrait\u2014realistically, beautifully, and skillfully\u2014of her subject."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "painted",
+                        "description": "[ARG0: She] [V: painted] [ARG1: the portrait of her subject] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "painted",
+                    "the",
+                    "portrait",
+                    "of",
+                    "her",
+                    "subject",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "painted",
+                        "description": "[ARG0: She] [V: painted] [ARG1: the portrait \u2014] [ARGM-MNR: realistically] , [ARGM-MNR: beautifully , and skillfully \u2014 of her subject] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "painted",
+                    "the",
+                    "portrait",
+                    "\u2014",
+                    "realistically",
+                    ",",
+                    "beautifully",
+                    ",",
+                    "and",
+                    "skillfully",
+                    "\u2014",
+                    "of",
+                    "her",
+                    "subject",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The bird flew over the lake.",
+            "em_dash": "The bird flew\u2014gracefully, effortlessly, and majestically\u2014over the lake."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "flew",
+                        "description": "[ARG1: The bird] [V: flew] [ARGM-DIR: over the lake] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "bird",
+                    "flew",
+                    "over",
+                    "the",
+                    "lake",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "flew",
+                        "description": "[ARG0: The bird] [V: flew] [ARG1: \u2014] [ARGM-MNR: gracefully] , [ARGM-MNR: effortlessly ,] and majestically \u2014 over the lake .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "bird",
+                    "flew",
+                    "\u2014",
+                    "gracefully",
+                    ",",
+                    "effortlessly",
+                    ",",
+                    "and",
+                    "majestically",
+                    "\u2014",
+                    "over",
+                    "the",
+                    "lake",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He sewed the dress for his wife.",
+            "em_dash": "He sewed the dress\u2014meticulously, skillfully, and creatively\u2014for his wife."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "sewed",
+                        "description": "[ARG0: He] [V: sewed] [ARG1: the dress] [ARGM-PNC: for his wife] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "sewed",
+                    "the",
+                    "dress",
+                    "for",
+                    "his",
+                    "wife",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "sewed",
+                        "description": "[ARG0: He] [V: sewed] [ARG1: the dress \u2014] [ARGM-MNR: meticulously] , [ARGM-MNR: skillfully , and creatively \u2014 for his wife] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "sewed",
+                    "the",
+                    "dress",
+                    "\u2014",
+                    "meticulously",
+                    ",",
+                    "skillfully",
+                    ",",
+                    "and",
+                    "creatively",
+                    "\u2014",
+                    "for",
+                    "his",
+                    "wife",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The train arrived at the station.",
+            "em_dash": "The train arrived\u2014finally, punctually, and noisily\u2014at the station."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "arrived",
+                        "description": "[ARG1: The train] [V: arrived] [ARG4: at the station] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG4",
+                            "I-ARG4",
+                            "I-ARG4",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "train",
+                    "arrived",
+                    "at",
+                    "the",
+                    "station",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "arrived",
+                        "description": "[ARG1: The train] [V: arrived] [ARGM-DIR: \u2014] [ARGM-TMP: finally] , punctually , [ARG5: and noisily] \u2014 [ARG4: at the station] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "B-ARGM-TMP",
+                            "O",
+                            "O",
+                            "O",
+                            "B-ARG5",
+                            "I-ARG5",
+                            "O",
+                            "B-ARG4",
+                            "I-ARG4",
+                            "I-ARG4",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "train",
+                    "arrived",
+                    "\u2014",
+                    "finally",
+                    ",",
+                    "punctually",
+                    ",",
+                    "and",
+                    "noisily",
+                    "\u2014",
+                    "at",
+                    "the",
+                    "station",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "She swam the distance in the pool.",
+            "em_dash": "She swam the distance\u2014powerfully, confidently, and flawlessly\u2014in the pool."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "swam",
+                        "description": "[ARG0: She] [V: swam] [ARG1: the distance in the pool] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "swam",
+                    "the",
+                    "distance",
+                    "in",
+                    "the",
+                    "pool",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "swam",
+                        "description": "[ARG0: She] [V: swam] [ARG1: the distance \u2014] [ARGM-MNR: powerfully] , [ARGM-MNR: confidently , and flawlessly \u2014] in the pool .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "swam",
+                    "the",
+                    "distance",
+                    "\u2014",
+                    "powerfully",
+                    ",",
+                    "confidently",
+                    ",",
+                    "and",
+                    "flawlessly",
+                    "\u2014",
+                    "in",
+                    "the",
+                    "pool",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "The clock ticked throughout the night.",
+            "em_dash": "The clock ticked\u2014steadily, rhythmically, and relentlessly\u2014throughout the night."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "ticked",
+                        "description": "[ARG1: The clock] [V: ticked] [ARGM-TMP: throughout the night] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "clock",
+                    "ticked",
+                    "throughout",
+                    "the",
+                    "night",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "ticked",
+                        "description": "[ARG0: The clock] [V: ticked] [ARG1: \u2014] [ARGM-MNR: steadily] , [ARGM-MNR: rhythmically] , and relentlessly \u2014 throughout the night .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "clock",
+                    "ticked",
+                    "\u2014",
+                    "steadily",
+                    ",",
+                    "rhythmically",
+                    ",",
+                    "and",
+                    "relentlessly",
+                    "\u2014",
+                    "throughout",
+                    "the",
+                    "night",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He spoke the words to his audience.",
+            "em_dash": "He spoke the words\u2014slowly, clearly, and thoughtfully\u2014to his audience."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "spoke",
+                        "description": "[ARG0: He] [V: spoke] [ARG1: the words] [ARG2: to his audience] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "spoke",
+                    "the",
+                    "words",
+                    "to",
+                    "his",
+                    "audience",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "spoke",
+                        "description": "[ARG0: He] [V: spoke] [ARG1: the words \u2014 slowly , clearly , and thoughtfully \u2014 to his audience] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "spoke",
+                    "the",
+                    "words",
+                    "\u2014",
+                    "slowly",
+                    ",",
+                    "clearly",
+                    ",",
+                    "and",
+                    "thoughtfully",
+                    "\u2014",
+                    "to",
+                    "his",
+                    "audience",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The river flowed through the valley.",
+            "em_dash": "The river flowed\u2014slowly, smoothly, and majestically\u2014through the valley."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "flowed",
+                        "description": "[ARG1: The river] [V: flowed] [ARGM-DIR: through the valley] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "river",
+                    "flowed",
+                    "through",
+                    "the",
+                    "valley",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "flowed",
+                        "description": "[ARG0: The river] [V: flowed] [ARG1: \u2014] [ARGM-MNR: slowly] , [ARGM-MNR: smoothly , and majestically \u2014 through the valley] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "river",
+                    "flowed",
+                    "\u2014",
+                    "slowly",
+                    ",",
+                    "smoothly",
+                    ",",
+                    "and",
+                    "majestically",
+                    "\u2014",
+                    "through",
+                    "the",
+                    "valley",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "She sculpted the statue for her client.",
+            "em_dash": "She sculpted the statue\u2014skillfully, creatively, and realistically\u2014for her client."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "sculpted",
+                        "description": "[ARG0: She] [V: sculpted] [ARG1: the statue] [ARGM-GOL: for her client] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-GOL",
+                            "I-ARGM-GOL",
+                            "I-ARGM-GOL",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "sculpted",
+                    "the",
+                    "statue",
+                    "for",
+                    "her",
+                    "client",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "sculpted",
+                        "description": "[ARG0: She] [V: sculpted] [ARG1: the statue] [ARGM-MNR: \u2014 skillfully , creatively , and realistically \u2014 for her client] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "sculpted",
+                    "the",
+                    "statue",
+                    "\u2014",
+                    "skillfully",
+                    ",",
+                    "creatively",
+                    ",",
+                    "and",
+                    "realistically",
+                    "\u2014",
+                    "for",
+                    "her",
+                    "client",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The wind blew through the trees.",
+            "em_dash": "The wind blew\u2014strongly, fiercely, and persistently\u2014through the trees."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "blew",
+                        "description": "[ARG1: The wind] [V: blew] [ARGM-DIR: through the trees] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "wind",
+                    "blew",
+                    "through",
+                    "the",
+                    "trees",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "blew",
+                        "description": "[ARG0: The wind] [V: blew] [ARG1: \u2014] [ARGM-MNR: strongly] , [ARGM-MNR: fiercely] , and persistently \u2014 through the trees .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "wind",
+                    "blew",
+                    "\u2014",
+                    "strongly",
+                    ",",
+                    "fiercely",
+                    ",",
+                    "and",
+                    "persistently",
+                    "\u2014",
+                    "through",
+                    "the",
+                    "trees",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He played the piano for his audience.",
+            "em_dash": "He played the piano\u2014beautifully, passionately, and skillfully\u2014for his audience."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "played",
+                        "description": "[ARG0: He] [V: played] [ARG1: the piano] [ARGM-GOL: for his audience] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-GOL",
+                            "I-ARGM-GOL",
+                            "I-ARGM-GOL",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "played",
+                    "the",
+                    "piano",
+                    "for",
+                    "his",
+                    "audience",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "played",
+                        "description": "[ARG0: He] [V: played] [ARG1: the piano \u2014] [ARGM-MNR: beautifully , passionately , and skillfully \u2014] for his audience .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "played",
+                    "the",
+                    "piano",
+                    "\u2014",
+                    "beautifully",
+                    ",",
+                    "passionately",
+                    ",",
+                    "and",
+                    "skillfully",
+                    "\u2014",
+                    "for",
+                    "his",
+                    "audience",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "The flower bloomed in the garden.",
+            "em_dash": "The flower bloomed\u2014slowly, magnificently, and beautifully\u2014in the garden."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "bloomed",
+                        "description": "[ARG1: The flower] [V: bloomed] [ARGM-LOC: in the garden] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "flower",
+                    "bloomed",
+                    "in",
+                    "the",
+                    "garden",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "bloomed",
+                        "description": "[ARG1: The flower] [V: bloomed] [ARG2: \u2014] [ARGM-MNR: slowly , magnificently , and beautifully \u2014] [ARGM-LOC: in the] garden .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "flower",
+                    "bloomed",
+                    "\u2014",
+                    "slowly",
+                    ",",
+                    "magnificently",
+                    ",",
+                    "and",
+                    "beautifully",
+                    "\u2014",
+                    "in",
+                    "the",
+                    "garden",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "She cooked the meal for her family.",
+            "em_dash": "She cooked the meal\u2014deliciously, authentically, and exquisitely\u2014for her family."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "cooked",
+                        "description": "[ARG0: She] [V: cooked] [ARG1: the meal for her family] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "cooked",
+                    "the",
+                    "meal",
+                    "for",
+                    "her",
+                    "family",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "cooked",
+                        "description": "[ARG0: She] [V: cooked] [ARG1: the meal] [ARGM-MNR: \u2014 deliciously , authentically] , and exquisitely \u2014 for her family .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "cooked",
+                    "the",
+                    "meal",
+                    "\u2014",
+                    "deliciously",
+                    ",",
+                    "authentically",
+                    ",",
+                    "and",
+                    "exquisitely",
+                    "\u2014",
+                    "for",
+                    "her",
+                    "family",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "The website crashed due to heavy traffic.",
+            "em_dash": "The website crashed\u2014unexpectedly, frustratingly, and repeatedly\u2014due to heavy traffic."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "crashed",
+                        "description": "[ARG1: The website] [V: crashed] [ARGM-CAU: due to heavy traffic] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-CAU",
+                            "I-ARGM-CAU",
+                            "I-ARGM-CAU",
+                            "I-ARGM-CAU",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "website",
+                    "crashed",
+                    "due",
+                    "to",
+                    "heavy",
+                    "traffic",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "crashed",
+                        "description": "[ARG0: The website] [V: crashed] [ARG1: \u2014] [ARGM-MNR: unexpectedly] , [ARGM-PRD: frustratingly] , and repeatedly \u2014 due to heavy traffic .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-PRD",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "website",
+                    "crashed",
+                    "\u2014",
+                    "unexpectedly",
+                    ",",
+                    "frustratingly",
+                    ",",
+                    "and",
+                    "repeatedly",
+                    "\u2014",
+                    "due",
+                    "to",
+                    "heavy",
+                    "traffic",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He painted the landscape of his hometown.",
+            "em_dash": "He painted the landscape\u2014realistically, beautifully, and passionately\u2014of his hometown."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "painted",
+                        "description": "[ARG0: He] [V: painted] [ARG1: the landscape of his hometown] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "painted",
+                    "the",
+                    "landscape",
+                    "of",
+                    "his",
+                    "hometown",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "painted",
+                        "description": "[ARG0: He] [V: painted] [ARG1: the landscape \u2014] [ARGM-MNR: realistically] , [ARGM-MNR: beautifully , and passionately \u2014 of his hometown] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "painted",
+                    "the",
+                    "landscape",
+                    "\u2014",
+                    "realistically",
+                    ",",
+                    "beautifully",
+                    ",",
+                    "and",
+                    "passionately",
+                    "\u2014",
+                    "of",
+                    "his",
+                    "hometown",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The car skidded on the icy road.",
+            "em_dash": "The car skidded\u2014dangerously, unexpectedly, and uncontrollably\u2014on the icy road."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "skidded",
+                        "description": "[ARG1: The car] [V: skidded] [ARGM-LOC: on the icy road] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "car",
+                    "skidded",
+                    "on",
+                    "the",
+                    "icy",
+                    "road",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "skidded",
+                        "description": "[ARG1: The car] [V: skidded] \u2014 [ARG2: dangerously] , unexpectedly , and uncontrollably \u2014 on the icy road .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "O",
+                            "B-ARG2",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "car",
+                    "skidded",
+                    "\u2014",
+                    "dangerously",
+                    ",",
+                    "unexpectedly",
+                    ",",
+                    "and",
+                    "uncontrollably",
+                    "\u2014",
+                    "on",
+                    "the",
+                    "icy",
+                    "road",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "She played the guitar in the concert.",
+            "em_dash": "She played the guitar\u2014skillfully, passionately, and beautifully\u2014in the concert."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "played",
+                        "description": "[ARG0: She] [V: played] [ARG1: the guitar] [ARGM-LOC: in the concert] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "played",
+                    "the",
+                    "guitar",
+                    "in",
+                    "the",
+                    "concert",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "played",
+                        "description": "[ARG0: She] [V: played] [ARG1: the guitar \u2014] [ARGM-MNR: skillfully] , [ARGM-MNR: passionately , and beautifully \u2014] [ARGM-LOC: in the concert] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "played",
+                    "the",
+                    "guitar",
+                    "\u2014",
+                    "skillfully",
+                    ",",
+                    "passionately",
+                    ",",
+                    "and",
+                    "beautifully",
+                    "\u2014",
+                    "in",
+                    "the",
+                    "concert",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The fire burned throughout the night.",
+            "em_dash": "The fire burned\u2014fiercely, dangerously, and relentlessly\u2014throughout the night."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "burned",
+                        "description": "[ARG1: The fire] [V: burned] [ARGM-TMP: throughout the night] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "fire",
+                    "burned",
+                    "throughout",
+                    "the",
+                    "night",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "burned",
+                        "description": "[ARG0: The fire] [V: burned] [ARG1: \u2014] [ARGM-MNR: fiercely] , [ARGM-MNR: dangerously , and relentlessly \u2014] [ARGM-TMP: throughout the night] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "fire",
+                    "burned",
+                    "\u2014",
+                    "fiercely",
+                    ",",
+                    "dangerously",
+                    ",",
+                    "and",
+                    "relentlessly",
+                    "\u2014",
+                    "throughout",
+                    "the",
+                    "night",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "He wrote the book for his readers.",
+            "em_dash": "He wrote the book\u2014imaginatively, skillfully, and passionately\u2014for his readers."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "wrote",
+                        "description": "[ARG0: He] [V: wrote] [ARG1: the book] [ARGM-GOL: for his readers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-GOL",
+                            "I-ARGM-GOL",
+                            "I-ARGM-GOL",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "wrote",
+                    "the",
+                    "book",
+                    "for",
+                    "his",
+                    "readers",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "wrote",
+                        "description": "[ARG0: He] [V: wrote] [ARG1: the book] [ARGM-MNR: \u2014 imaginatively] , [ARGM-MNR: skillfully , and passionately \u2014 for his readers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "wrote",
+                    "the",
+                    "book",
+                    "\u2014",
+                    "imaginatively",
+                    ",",
+                    "skillfully",
+                    ",",
+                    "and",
+                    "passionately",
+                    "\u2014",
+                    "for",
+                    "his",
+                    "readers",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The team won the championship.",
+            "em_dash": "The team won\u2014confidently, skillfully, and deservedly\u2014the championship."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "won",
+                        "description": "[ARG0: The team] [V: won] [ARG1: the championship] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "team",
+                    "won",
+                    "the",
+                    "championship",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "won",
+                        "description": "[ARG0: The team] [V: won] [ARG1: \u2014] [ARGM-MNR: confidently] , [ARGM-MNR: skillfully , and deservedly \u2014 the championship] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "team",
+                    "won",
+                    "\u2014",
+                    "confidently",
+                    ",",
+                    "skillfully",
+                    ",",
+                    "and",
+                    "deservedly",
+                    "\u2014",
+                    "the",
+                    "championship",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "She designed the dress for her client.",
+            "em_dash": "She designed the dress\u2014creatively, skillfully, and exquisitely\u2014for her client."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "designed",
+                        "description": "[ARG0: She] [V: designed] [ARG1: the dress] [ARG3: for her client] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARG3",
+                            "I-ARG3",
+                            "I-ARG3",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "designed",
+                    "the",
+                    "dress",
+                    "for",
+                    "her",
+                    "client",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "designed",
+                        "description": "[ARG0: She] [V: designed] [ARG1: the dress \u2014 creatively] , [ARGM-MNR: skillfully] , and exquisitely \u2014 for her client .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "designed",
+                    "the",
+                    "dress",
+                    "\u2014",
+                    "creatively",
+                    ",",
+                    "skillfully",
+                    ",",
+                    "and",
+                    "exquisitely",
+                    "\u2014",
+                    "for",
+                    "her",
+                    "client",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "The rain poured throughout the day.",
+            "em_dash": "The rain poured\u2014heavily, relentlessly, and noisily\u2014throughout the day."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "poured",
+                        "description": "[ARG1: The rain] [V: poured] [ARGM-TMP: throughout the day] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "rain",
+                    "poured",
+                    "throughout",
+                    "the",
+                    "day",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "poured",
+                        "description": "[ARG0: The rain] [V: poured] [ARG1: \u2014] [ARGM-MNR: heavily] , [ARGM-MNR: relentlessly , and noisily \u2014] throughout the day .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "rain",
+                    "poured",
+                    "\u2014",
+                    "heavily",
+                    ",",
+                    "relentlessly",
+                    ",",
+                    "and",
+                    "noisily",
+                    "\u2014",
+                    "throughout",
+                    "the",
+                    "day",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He cooked the dish for his guests.",
+            "em_dash": "He cooked the dish\u2014perfectly, authentically, and deliciously\u2014for his guests."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "cooked",
+                        "description": "[ARG0: He] [V: cooked] [ARG1: the dish] [ARGM-PNC: for his guests] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "cooked",
+                    "the",
+                    "dish",
+                    "for",
+                    "his",
+                    "guests",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "cooked",
+                        "description": "[ARG0: He] [V: cooked] [ARG1: the dish \u2014 perfectly , authentically , and deliciously \u2014] [ARGM-PRP: for his guests] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "cooked",
+                    "the",
+                    "dish",
+                    "\u2014",
+                    "perfectly",
+                    ",",
+                    "authentically",
+                    ",",
+                    "and",
+                    "deliciously",
+                    "\u2014",
+                    "for",
+                    "his",
+                    "guests",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The balloon burst at the party.",
+            "em_dash": "The balloon burst\u2014suddenly, loudly, and unexpectedly\u2014at the party."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "burst",
+                        "description": "[ARG1: The balloon] [V: burst] [ARGM-LOC: at the party] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "balloon",
+                    "burst",
+                    "at",
+                    "the",
+                    "party",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [],
+                "words": [
+                    "The",
+                    "balloon",
+                    "burst",
+                    "\u2014",
+                    "suddenly",
+                    ",",
+                    "loudly",
+                    ",",
+                    "and",
+                    "unexpectedly",
+                    "\u2014",
+                    "at",
+                    "the",
+                    "party",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "She climbed the mountain to reach the summit.",
+            "em_dash": "She climbed the mountain\u2014slowly, steadily, and confidently\u2014to reach the summit."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "climbed",
+                        "description": "[ARG0: She] [V: climbed] [ARG1: the mountain] [ARGM-PRP: to reach the summit] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "I-ARGM-PRP",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "reach",
+                        "description": "[ARG0: She] climbed the mountain to [V: reach] [ARG1: the summit] .",
+                        "tags": [
+                            "B-ARG0",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "climbed",
+                    "the",
+                    "mountain",
+                    "to",
+                    "reach",
+                    "the",
+                    "summit",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "climbed",
+                        "description": "[ARG0: She] [V: climbed] [ARG1: the mountain \u2014] [ARGM-MNR: slowly] , [ARGM-MNR: steadily] , and confidently \u2014 to reach the summit .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "reach",
+                        "description": "[ARG0: She] climbed the mountain \u2014 slowly , steadily , and confidently \u2014 to [V: reach] [ARG1: the summit] .",
+                        "tags": [
+                            "B-ARG0",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "climbed",
+                    "the",
+                    "mountain",
+                    "\u2014",
+                    "slowly",
+                    ",",
+                    "steadily",
+                    ",",
+                    "and",
+                    "confidently",
+                    "\u2014",
+                    "to",
+                    "reach",
+                    "the",
+                    "summit",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "The ocean roared in the storm.",
+            "em_dash": "The ocean roared\u2014powerfully, majestically, and relentlessly\u2014in the storm."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "roared",
+                        "description": "[ARG1: The ocean] [V: roared] [ARGM-LOC: in the storm] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "ocean",
+                    "roared",
+                    "in",
+                    "the",
+                    "storm",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "roared",
+                        "description": "[ARG0: The ocean] [V: roared] [ARG1: \u2014] [ARGM-MNR: powerfully] , [ARGM-PRD: majestically] , and relentlessly \u2014 in the storm .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-PRD",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "ocean",
+                    "roared",
+                    "\u2014",
+                    "powerfully",
+                    ",",
+                    "majestically",
+                    ",",
+                    "and",
+                    "relentlessly",
+                    "\u2014",
+                    "in",
+                    "the",
+                    "storm",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He drew the sketch of his friend.",
+            "em_dash": "He drew the sketch\u2014skillfully, creatively, and realistically\u2014of his friend."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "drew",
+                        "description": "[ARG0: He] [V: drew] [ARG1: the sketch of his friend] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "drew",
+                    "the",
+                    "sketch",
+                    "of",
+                    "his",
+                    "friend",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "drew",
+                        "description": "[ARG0: He] [V: drew] [ARG1: the sketch] [ARGM-MNR: \u2014 skillfully , creatively , and realistically \u2014 of his friend] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "drew",
+                    "the",
+                    "sketch",
+                    "\u2014",
+                    "skillfully",
+                    ",",
+                    "creatively",
+                    ",",
+                    "and",
+                    "realistically",
+                    "\u2014",
+                    "of",
+                    "his",
+                    "friend",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The movie ended with a plot twist.",
+            "em_dash": "The movie ended\u2014suddenly, surprisingly, and brilliantly\u2014with a plot twist."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "ended",
+                        "description": "[ARG1: The movie] [V: ended] [ARG2: with a plot twist] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "movie",
+                    "ended",
+                    "with",
+                    "a",
+                    "plot",
+                    "twist",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "ended",
+                        "description": "[ARG1: The movie] [V: ended] [ARG2: \u2014] [ARGM-TMP: suddenly] , [ARGM-MNR: surprisingly , and brilliantly \u2014 with a plot twist] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "B-ARGM-TMP",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "movie",
+                    "ended",
+                    "\u2014",
+                    "suddenly",
+                    ",",
+                    "surprisingly",
+                    ",",
+                    "and",
+                    "brilliantly",
+                    "\u2014",
+                    "with",
+                    "a",
+                    "plot",
+                    "twist",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "She sang the lullaby to her baby.",
+            "em_dash": "She sang the lullaby\u2014gently, soothingly, and melodiously\u2014to her baby."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "sang",
+                        "description": "[ARG0: She] [V: sang] [ARG1: the lullaby] [ARG3: to her baby] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARG3",
+                            "I-ARG3",
+                            "I-ARG3",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "sang",
+                    "the",
+                    "lullaby",
+                    "to",
+                    "her",
+                    "baby",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "sang",
+                        "description": "[ARG0: She] [V: sang] [ARG1: the lullaby \u2014 gently , soothingly , and melodiously \u2014 to her baby] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "sang",
+                    "the",
+                    "lullaby",
+                    "\u2014",
+                    "gently",
+                    ",",
+                    "soothingly",
+                    ",",
+                    "and",
+                    "melodiously",
+                    "\u2014",
+                    "to",
+                    "her",
+                    "baby",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The ice melted in the warmth of the sun.",
+            "em_dash": "The ice melted\u2014slowly, gradually, and beautifully\u2014in the warmth of the sun."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "melted",
+                        "description": "[ARG1: The ice] [V: melted] [ARGM-ADV: in the warmth of the sun] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "I-ARGM-ADV",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "ice",
+                    "melted",
+                    "in",
+                    "the",
+                    "warmth",
+                    "of",
+                    "the",
+                    "sun",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "melted",
+                        "description": "The ice [V: melted] [ARG1: \u2014] [ARGM-MNR: slowly] , [ARGM-MNR: gradually , and beautifully \u2014 in the warmth of the sun] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "ice",
+                    "melted",
+                    "\u2014",
+                    "slowly",
+                    ",",
+                    "gradually",
+                    ",",
+                    "and",
+                    "beautifully",
+                    "\u2014",
+                    "in",
+                    "the",
+                    "warmth",
+                    "of",
+                    "the",
+                    "sun",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He brewed the coffee for his customers.",
+            "em_dash": "He brewed the coffee\u2014exquisitely, skillfully, and beautifully\u2014for his customers."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "brewed",
+                        "description": "[ARG0: He] [V: brewed] [ARG1: the coffee] [ARGM-PNC: for his customers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "I-ARGM-PNC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "brewed",
+                    "the",
+                    "coffee",
+                    "for",
+                    "his",
+                    "customers",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "brewed",
+                        "description": "[ARG0: He] [V: brewed] [ARG2: the coffee \u2014 exquisitely] , [ARGM-MNR: skillfully , and beautifully \u2014 for his customers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "brewed",
+                    "the",
+                    "coffee",
+                    "\u2014",
+                    "exquisitely",
+                    ",",
+                    "skillfully",
+                    ",",
+                    "and",
+                    "beautifully",
+                    "\u2014",
+                    "for",
+                    "his",
+                    "customers",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The city awakened on a Monday morning.",
+            "em_dash": "The city awakened\u2014noisily, relentlessly, and magnificently\u2014on a Monday morning."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "awakened",
+                        "description": "[ARG1: The city] [V: awakened] [ARGM-TMP: on a Monday morning] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "city",
+                    "awakened",
+                    "on",
+                    "a",
+                    "Monday",
+                    "morning",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "awakened",
+                        "description": "[ARG0: The city] [V: awakened] [ARG1: \u2014 noisily] , [ARGM-MNR: relentlessly] , and magnificently \u2014 [ARGM-TMP: on a Monday morning] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O",
+                            "B-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "city",
+                    "awakened",
+                    "\u2014",
+                    "noisily",
+                    ",",
+                    "relentlessly",
+                    ",",
+                    "and",
+                    "magnificently",
+                    "\u2014",
+                    "on",
+                    "a",
+                    "Monday",
+                    "morning",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "She mixed the drink for her guests.",
+            "em_dash": "She mixed the drink\u2014perfectly, creatively, and deliciously\u2014for her guests."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "mixed",
+                        "description": "[ARG0: She] [V: mixed] [ARG1: the drink] [ARG3: for her guests] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-ARG3",
+                            "I-ARG3",
+                            "I-ARG3",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "mixed",
+                    "the",
+                    "drink",
+                    "for",
+                    "her",
+                    "guests",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "mixed",
+                        "description": "[ARG0: She] [V: mixed] [ARG1: the drink \u2014 perfectly , creatively , and deliciously \u2014] [ARG2: for her guests] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "mixed",
+                    "the",
+                    "drink",
+                    "\u2014",
+                    "perfectly",
+                    ",",
+                    "creatively",
+                    ",",
+                    "and",
+                    "deliciously",
+                    "\u2014",
+                    "for",
+                    "her",
+                    "guests",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The bird chirped outside the window.",
+            "em_dash": "The bird chirped\u2014happily, melodiously, and rhythmically\u2014outside the window."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "chirped",
+                        "description": "[ARG0: The bird] [V: chirped] [ARGM-LOC: outside the window] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "bird",
+                    "chirped",
+                    "outside",
+                    "the",
+                    "window",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "chirped",
+                        "description": "[ARG0: The bird] [V: chirped] [ARG1: \u2014] [ARGM-MNR: happily] , melodiously , and rhythmically \u2014 outside the window .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "bird",
+                    "chirped",
+                    "\u2014",
+                    "happily",
+                    ",",
+                    "melodiously",
+                    ",",
+                    "and",
+                    "rhythmically",
+                    "\u2014",
+                    "outside",
+                    "the",
+                    "window",
+                    "."
+                ]
+            }
+        },
+        "failure": true
+    },
+    {
+        "input": {
+            "original": "He calculated the numbers for his project.",
+            "em_dash": "He calculated the numbers\u2014carefully, skillfully, and methodically\u2014for his project."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "calculated",
+                        "description": "[ARG0: He] [V: calculated] [ARG1: the numbers for his project] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "calculated",
+                    "the",
+                    "numbers",
+                    "for",
+                    "his",
+                    "project",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "calculated",
+                        "description": "[ARG0: He] [V: calculated] [ARG1: the numbers \u2014] [ARGM-MNR: carefully] , [ARGM-MNR: skillfully , and methodically \u2014 for his project] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "calculated",
+                    "the",
+                    "numbers",
+                    "\u2014",
+                    "carefully",
+                    ",",
+                    "skillfully",
+                    ",",
+                    "and",
+                    "methodically",
+                    "\u2014",
+                    "for",
+                    "his",
+                    "project",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The light faded as the sun went down.",
+            "em_dash": "The light faded\u2014slowly, gradually, and beautifully\u2014as the sun went down."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "faded",
+                        "description": "[ARG1: The light] [V: faded] [ARGM-TMP: as the sun went down] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "went",
+                        "description": "The light faded as [ARG1: the sun] [V: went] [ARGM-DIR: down] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "light",
+                    "faded",
+                    "as",
+                    "the",
+                    "sun",
+                    "went",
+                    "down",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "faded",
+                        "description": "[ARG1: The light] [V: faded] [ARG2: \u2014] [ARGM-MNR: slowly] , [ARGM-MNR: gradually , and beautifully \u2014] [ARGM-TMP: as the sun went down] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "B-ARGM-MNR",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    },
+                    {
+                        "verb": "went",
+                        "description": "The light faded \u2014 slowly , gradually , and beautifully \u2014 as [ARG1: the sun] [V: went] [ARGM-DIR: down] .",
+                        "tags": [
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "O",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "light",
+                    "faded",
+                    "\u2014",
+                    "slowly",
+                    ",",
+                    "gradually",
+                    ",",
+                    "and",
+                    "beautifully",
+                    "\u2014",
+                    "as",
+                    "the",
+                    "sun",
+                    "went",
+                    "down",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "She taught the class for her students.",
+            "em_dash": "She taught the class\u2014skillfully, passionately, and engagingly\u2014for her students."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "taught",
+                        "description": "[ARG0: She] [V: taught] [ARG1: the class for her students] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "taught",
+                    "the",
+                    "class",
+                    "for",
+                    "her",
+                    "students",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "taught",
+                        "description": "[ARG0: She] [V: taught] [ARG1: the class \u2014 skillfully , passionately , and engagingly \u2014 for her students] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "taught",
+                    "the",
+                    "class",
+                    "\u2014",
+                    "skillfully",
+                    ",",
+                    "passionately",
+                    ",",
+                    "and",
+                    "engagingly",
+                    "\u2014",
+                    "for",
+                    "her",
+                    "students",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "original": "The boat sailed on the ocean.",
+            "em_dash": "The boat sailed\u2014smoothly, majestically, and effortlessly\u2014on the ocean."
+        },
+        "output": {
+            "original_pred": {
+                "verbs": [
+                    {
+                        "verb": "sailed",
+                        "description": "[ARG0: The boat] [V: sailed] [ARGM-DIR: on the ocean] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "I-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "boat",
+                    "sailed",
+                    "on",
+                    "the",
+                    "ocean",
+                    "."
+                ]
+            },
+            "dashed_pred": {
+                "verbs": [
+                    {
+                        "verb": "sailed",
+                        "description": "[ARG0: The boat] [V: sailed] \u2014 [ARGM-MNR: smoothly , majestically , and effortlessly \u2014 on the ocean] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "O",
+                            "B-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "I-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "boat",
+                    "sailed",
+                    "\u2014",
+                    "smoothly",
+                    ",",
+                    "majestically",
+                    ",",
+                    "and",
+                    "effortlessly",
+                    "\u2014",
+                    "on",
+                    "the",
+                    "ocean",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    }
+]

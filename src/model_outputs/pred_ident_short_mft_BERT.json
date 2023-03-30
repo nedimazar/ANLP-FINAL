@@ -1,0 +1,3363 @@
+[
+    {
+        "input": {
+            "sentence": "She reads every day.",
+            "verb": "reads"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "reads",
+                        "description": "[ARG0: She] [V: reads] [ARGM-TMP: every day] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "reads",
+                    "every",
+                    "day",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He studied all night.",
+            "verb": "studied"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "studied",
+                        "description": "[ARG0: He] [V: studied] [ARGM-TMP: all night] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "studied",
+                    "all",
+                    "night",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He went to the store.",
+            "verb": "went"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "went",
+                        "description": "[ARG0: He] [V: went] [ARG4: to the store] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG4",
+                            "I-ARG4",
+                            "I-ARG4",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "went",
+                    "to",
+                    "the",
+                    "store",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The dog barked loudly.",
+            "verb": "barked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "barked",
+                        "description": "[ARG0: The dog] [V: barked] [ARGM-MNR: loudly] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "dog",
+                    "barked",
+                    "loudly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "You look tired.",
+            "verb": "look"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "look",
+                        "description": "[ARG0: You] [V: look] [ARG1: tired] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "You",
+                    "look",
+                    "tired",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The wind blows softly.",
+            "verb": "blows"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "blows",
+                        "description": "[ARG1: The wind] [V: blows] [ARGM-MNR: softly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "wind",
+                    "blows",
+                    "softly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We watched the sunset.",
+            "verb": "watched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "watched",
+                        "description": "[ARG0: We] [V: watched] [ARG1: the sunset] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "watched",
+                    "the",
+                    "sunset",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She dances gracefully.",
+            "verb": "dances"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "dances",
+                        "description": "[ARG0: She] [V: dances] [ARGM-MNR: gracefully] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "dances",
+                    "gracefully",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He sings beautifully.",
+            "verb": "sings"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "sings",
+                        "description": "[ARG0: He] [V: sings] [ARGM-MNR: beautifully] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "sings",
+                    "beautifully",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The cat sleeps soundly.",
+            "verb": "sleeps"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "sleeps",
+                        "description": "[ARG0: The cat] [V: sleeps] [ARGM-MNR: soundly] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "cat",
+                    "sleeps",
+                    "soundly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I wrote a letter.",
+            "verb": "wrote"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wrote",
+                        "description": "[ARG0: I] [V: wrote] [ARG1: a letter] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "wrote",
+                    "a",
+                    "letter",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The phone rang constantly.",
+            "verb": "rang"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "rang",
+                        "description": "[ARG1: The phone] [V: rang] [ARGM-MNR: constantly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "phone",
+                    "rang",
+                    "constantly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She cried during the movie.",
+            "verb": "cried"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "cried",
+                        "description": "[ARG0: She] [V: cried] [ARGM-TMP: during the movie] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "cried",
+                    "during",
+                    "the",
+                    "movie",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He laughed heartily.",
+            "verb": "laughed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "laughed",
+                        "description": "[ARG0: He] [V: laughed] [ARGM-MNR: heartily] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "laughed",
+                    "heartily",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The bird flew away.",
+            "verb": "flew"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "flew",
+                        "description": "[ARG0: The bird] [V: flew] [ARGM-DIR: away] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-DIR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "bird",
+                    "flew",
+                    "away",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I painted the room.",
+            "verb": "painted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "painted",
+                        "description": "[ARG0: I] [V: painted] [ARG1: the room] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "painted",
+                    "the",
+                    "room",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She whispered a secret.",
+            "verb": "whispered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "whispered",
+                        "description": "[ARG0: She] [V: whispered] [ARG1: a secret] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "whispered",
+                    "a",
+                    "secret",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He listens attentively.",
+            "verb": "listens"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "listens",
+                        "description": "[ARG0: He] [V: listens] [ARGM-MNR: attentively] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "listens",
+                    "attentively",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The baby crawled fast.",
+            "verb": "crawled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "crawled",
+                        "description": "[ARG0: The baby] [V: crawled] [ARGM-MNR: fast] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "baby",
+                    "crawled",
+                    "fast",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I ate breakfast.",
+            "verb": "ate"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "ate",
+                        "description": "[ARG0: I] [V: ate] [ARG1: breakfast] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "ate",
+                    "breakfast",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She knit a scarf.",
+            "verb": "knit"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "knit",
+                        "description": "[ARG0: She] [V: knit] [ARG1: a scarf] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "knit",
+                    "a",
+                    "scarf",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He drives carefully.",
+            "verb": "drives"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "drives",
+                        "description": "[ARG0: He] [V: drives] [ARGM-MNR: carefully] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "drives",
+                    "carefully",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We planned a vacation.",
+            "verb": "planned"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "planned",
+                        "description": "[ARG0: We] [V: planned] [ARG1: a vacation] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "planned",
+                    "a",
+                    "vacation",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The sun shines brightly.",
+            "verb": "shines"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "shines",
+                        "description": "[ARG1: The sun] [V: shines] [ARGM-MNR: brightly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "sun",
+                    "shines",
+                    "brightly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She jumped rope.",
+            "verb": "jumped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "jumped",
+                        "description": "[ARG0: She] [V: jumped] [ARG1: rope] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "jumped",
+                    "rope",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I cooked dinner.",
+            "verb": "cooked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "cooked",
+                        "description": "[ARG0: I] [V: cooked] [ARG1: dinner] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "cooked",
+                    "dinner",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He jogged in the park.",
+            "verb": "jogged"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "jogged",
+                        "description": "[ARG0: He] [V: jogged] [ARGM-LOC: in the park] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "jogged",
+                    "in",
+                    "the",
+                    "park",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The door opened slowly.",
+            "verb": "opened"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "opened",
+                        "description": "[ARG1: The door] [V: opened] [ARGM-MNR: slowly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "door",
+                    "opened",
+                    "slowly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She sewed a dress.",
+            "verb": "sewed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "sewed",
+                        "description": "[ARG0: She] [V: sewed] [ARG1: a dress] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "sewed",
+                    "a",
+                    "dress",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He swam laps.",
+            "verb": "swam"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "swam",
+                        "description": "[ARG0: He] [V: swam] [ARG1: laps] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "swam",
+                    "laps",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I planted flowers.",
+            "verb": "planted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "planted",
+                        "description": "[ARG0: I] [V: planted] [ARG1: flowers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "planted",
+                    "flowers",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The rain poured heavily.",
+            "verb": "poured"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "poured",
+                        "description": "[ARG1: The rain] [V: poured] [ARGM-MNR: heavily] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "rain",
+                    "poured",
+                    "heavily",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She hugged her friend.",
+            "verb": "hugged"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "hugged",
+                        "description": "[ARG0: She] [V: hugged] [ARG1: her friend] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "hugged",
+                    "her",
+                    "friend",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He photographed the landscape.",
+            "verb": "photographed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "photographed",
+                        "description": "[ARG0: He] [V: photographed] [ARG1: the landscape] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "photographed",
+                    "the",
+                    "landscape",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We celebrated the victory.",
+            "verb": "celebrated"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "celebrated",
+                        "description": "[ARG0: We] [V: celebrated] [ARG1: the victory] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "celebrated",
+                    "the",
+                    "victory",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The clock ticked loudly.",
+            "verb": "ticked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "ticked",
+                        "description": "[ARG0: The clock] [V: ticked] [ARGM-MNR: loudly] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "clock",
+                    "ticked",
+                    "loudly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She brushed her hair.",
+            "verb": "brushed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "brushed",
+                        "description": "[ARG0: She] [V: brushed] [ARG1: her hair] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "brushed",
+                    "her",
+                    "hair",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I washed my car.",
+            "verb": "washed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "washed",
+                        "description": "[ARG0: I] [V: washed] [ARG1: my car] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "washed",
+                    "my",
+                    "car",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He sketched a portrait.",
+            "verb": "sketched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "sketched",
+                        "description": "[ARG0: He] [V: sketched] [ARG1: a portrait] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "sketched",
+                    "a",
+                    "portrait",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The leaves fell gently.",
+            "verb": "fell"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "fell",
+                        "description": "[ARG1: The leaves] [V: fell] [ARGM-MNR: gently] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "leaves",
+                    "fell",
+                    "gently",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She practiced piano.",
+            "verb": "practiced"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "practiced",
+                        "description": "[ARG0: She] [V: practiced] [ARG1: piano] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "practiced",
+                    "piano",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I changed the lightbulb.",
+            "verb": "changed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "changed",
+                        "description": "[ARG0: I] [V: changed] [ARG1: the lightbulb] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "changed",
+                    "the",
+                    "lightbulb",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He mowed the lawn.",
+            "verb": "mowed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "mowed",
+                        "description": "[ARG0: He] [V: mowed] [ARG1: the lawn] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "mowed",
+                    "the",
+                    "lawn",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We shared a meal.",
+            "verb": "shared"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "shared",
+                        "description": "[ARG0: We] [V: shared] [ARG1: a meal] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "shared",
+                    "a",
+                    "meal",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The snow melted slowly.",
+            "verb": "melted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "melted",
+                        "description": "[ARG1: The snow] [V: melted] [ARGM-MNR: slowly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "snow",
+                    "melted",
+                    "slowly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She climbed the mountain.",
+            "verb": "climbed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "climbed",
+                        "description": "[ARG0: She] [V: climbed] [ARG1: the mountain] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "climbed",
+                    "the",
+                    "mountain",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I baked cookies.",
+            "verb": "baked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "baked",
+                        "description": "[ARG0: I] [V: baked] [ARG1: cookies] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "baked",
+                    "cookies",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He rode his bike.",
+            "verb": "rode"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "rode",
+                        "description": "[ARG0: He] [V: rode] [ARG1: his bike] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "rode",
+                    "his",
+                    "bike",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We discussed the problem.",
+            "verb": "discussed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "discussed",
+                        "description": "[ARG0: We] [V: discussed] [ARG1: the problem] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "discussed",
+                    "the",
+                    "problem",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The river flowed smoothly.",
+            "verb": "flowed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "flowed",
+                        "description": "[ARG1: The river] [V: flowed] [ARGM-MNR: smoothly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "river",
+                    "flowed",
+                    "smoothly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She played guitar.",
+            "verb": "played"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "played",
+                        "description": "[ARG0: She] [V: played] [ARG2: guitar] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "played",
+                    "guitar",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I folded the laundry.",
+            "verb": "folded"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "folded",
+                        "description": "[ARG0: I] [V: folded] [ARG1: the laundry] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "folded",
+                    "the",
+                    "laundry",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He lifted weights.",
+            "verb": "lifted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "lifted",
+                        "description": "[ARG0: He] [V: lifted] [ARG1: weights] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "lifted",
+                    "weights",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We traveled the world.",
+            "verb": "traveled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "traveled",
+                        "description": "[ARG0: We] [V: traveled] [ARG1: the world] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "traveled",
+                    "the",
+                    "world",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The kettle whistled loudly.",
+            "verb": "whistled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "whistled",
+                        "description": "[ARG0: The kettle] [V: whistled] [ARGM-MNR: loudly] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "kettle",
+                    "whistled",
+                    "loudly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She arranged the flowers.",
+            "verb": "arranged"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "arranged",
+                        "description": "[ARG0: She] [V: arranged] [ARG1: the flowers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "arranged",
+                    "the",
+                    "flowers",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I typed an email.",
+            "verb": "typed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "typed",
+                        "description": "[ARG0: I] [V: typed] [ARG1: an email] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "typed",
+                    "an",
+                    "email",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He carved a pumpkin.",
+            "verb": "carved"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "carved",
+                        "description": "[ARG0: He] [V: carved] [ARG1: a pumpkin] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "carved",
+                    "a",
+                    "pumpkin",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We explored the forest.",
+            "verb": "explored"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "explored",
+                        "description": "[ARG0: We] [V: explored] [ARG1: the forest] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "explored",
+                    "the",
+                    "forest",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The stars twinkled brightly.",
+            "verb": "twinkled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "twinkled",
+                        "description": "[ARG1: The stars] [V: twinkled] [ARGM-MNR: brightly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "stars",
+                    "twinkled",
+                    "brightly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She decorated the room.",
+            "verb": "decorated"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "decorated",
+                        "description": "[ARG0: She] [V: decorated] [ARG1: the room] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "decorated",
+                    "the",
+                    "room",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I stirred the soup.",
+            "verb": "stirred"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "stirred",
+                        "description": "[ARG0: I] [V: stirred] [ARG1: the soup] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "stirred",
+                    "the",
+                    "soup",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He balanced on one foot.",
+            "verb": "balanced"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "balanced",
+                        "description": "[ARG0: He] [V: balanced] [ARG2: on one foot] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "balanced",
+                    "on",
+                    "one",
+                    "foot",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We admired the artwork.",
+            "verb": "admired"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "admired",
+                        "description": "[ARG0: We] [V: admired] [ARG1: the artwork] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "admired",
+                    "the",
+                    "artwork",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The train approached slowly.",
+            "verb": "approached"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "approached",
+                        "description": "[ARG1: The train] [V: approached] [ARGM-MNR: slowly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "train",
+                    "approached",
+                    "slowly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She called her mom.",
+            "verb": "called"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "called",
+                        "description": "[ARG0: She] [V: called] [ARG1: her mom] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "called",
+                    "her",
+                    "mom",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I repaired the fence.",
+            "verb": "repaired"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "repaired",
+                        "description": "[ARG0: I] [V: repaired] [ARG1: the fence] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "repaired",
+                    "the",
+                    "fence",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He yawned during class.",
+            "verb": "yawned"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "yawned",
+                        "description": "[ARG0: He] [V: yawned] [ARGM-TMP: during class] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-TMP",
+                            "I-ARGM-TMP",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "yawned",
+                    "during",
+                    "class",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We cheered for our team.",
+            "verb": "cheered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "cheered",
+                        "description": "[ARG0: We] [V: cheered] [ARG1: for our team] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "cheered",
+                    "for",
+                    "our",
+                    "team",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The bee buzzed nearby.",
+            "verb": "buzzed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "buzzed",
+                        "description": "[ARG1: The bee] [V: buzzed] [ARGM-LOC: nearby] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "bee",
+                    "buzzed",
+                    "nearby",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She ironed her clothes.",
+            "verb": "ironed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "ironed",
+                        "description": "[ARG0: She] [V: ironed] [ARG1: her clothes] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "ironed",
+                    "her",
+                    "clothes",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I vacuumed the floor.",
+            "verb": "vacuumed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "vacuumed",
+                        "description": "[ARG0: I] [V: vacuumed] [ARG2: the floor] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "vacuumed",
+                    "the",
+                    "floor",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He rowed the boat.",
+            "verb": "rowed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "rowed",
+                        "description": "[ARG0: He] [V: rowed] [ARG1: the boat] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "rowed",
+                    "the",
+                    "boat",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We hiked the trail.",
+            "verb": "hiked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "hiked",
+                        "description": "[ARG0: We] [V: hiked] [ARG1: the trail] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "hiked",
+                    "the",
+                    "trail",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The cat purred softly.",
+            "verb": "purred"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "purred",
+                        "description": "[ARG0: The cat] [V: purred] [ARGM-MNR: softly] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "cat",
+                    "purred",
+                    "softly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She taught a class.",
+            "verb": "taught"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "taught",
+                        "description": "[ARG0: She] [V: taught] [ARG1: a class] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "taught",
+                    "a",
+                    "class",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I combed my hair.",
+            "verb": "combed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "combed",
+                        "description": "[ARG0: I] [V: combed] [ARG1: my hair] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "combed",
+                    "my",
+                    "hair",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He completed the puzzle.",
+            "verb": "completed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "completed",
+                        "description": "[ARG0: He] [V: completed] [ARG1: the puzzle] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "completed",
+                    "the",
+                    "puzzle",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We welcomed the guests.",
+            "verb": "welcomed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "welcomed",
+                        "description": "[ARG0: We] [V: welcomed] [ARG1: the guests] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "welcomed",
+                    "the",
+                    "guests",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The horse galloped quickly.",
+            "verb": "galloped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "galloped",
+                        "description": "[ARG0: The horse] [V: galloped] [ARGM-MNR: quickly] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "horse",
+                    "galloped",
+                    "quickly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She borrowed a book.",
+            "verb": "borrowed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "borrowed",
+                        "description": "[ARG0: She] [V: borrowed] [ARG1: a book] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "borrowed",
+                    "a",
+                    "book",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I assembled the furniture.",
+            "verb": "assembled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "assembled",
+                        "description": "[ARG0: I] [V: assembled] [ARG1: the furniture] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "assembled",
+                    "the",
+                    "furniture",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He tossed the ball.",
+            "verb": "tossed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "tossed",
+                        "description": "[ARG0: He] [V: tossed] [ARG1: the ball] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "tossed",
+                    "the",
+                    "ball",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We waited for the bus.",
+            "verb": "waited"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "waited",
+                        "description": "[ARG1: We] [V: waited] [ARG2: for the bus] .",
+                        "tags": [
+                            "B-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "I-ARG2",
+                            "I-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "waited",
+                    "for",
+                    "the",
+                    "bus",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The tree swayed gently.",
+            "verb": "swayed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "swayed",
+                        "description": "[ARG1: The tree] [V: swayed] [ARGM-MNR: gently] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "tree",
+                    "swayed",
+                    "gently",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She polished her shoes.",
+            "verb": "polished"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "polished",
+                        "description": "[ARG0: She] [V: polished] [ARG1: her shoes] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "polished",
+                    "her",
+                    "shoes",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I watered the plants.",
+            "verb": "watered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "watered",
+                        "description": "[ARG0: I] [V: watered] [ARG1: the plants] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "watered",
+                    "the",
+                    "plants",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He played chess.",
+            "verb": "played"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "played",
+                        "description": "[ARG0: He] [V: played] [ARG1: chess] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "played",
+                    "chess",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We investigated the mystery.",
+            "verb": "investigated"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "investigated",
+                        "description": "[ARG0: We] [V: investigated] [ARG1: the mystery] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "investigated",
+                    "the",
+                    "mystery",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The fire crackled softly.",
+            "verb": "crackled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "crackled",
+                        "description": "[ARG0: The fire] [V: crackled] [ARGM-MNR: softly] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "fire",
+                    "crackled",
+                    "softly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She scooped ice cream.",
+            "verb": "scooped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "scooped",
+                        "description": "[ARG0: She] [V: scooped] [ARG1: ice cream] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "scooped",
+                    "ice",
+                    "cream",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I organized the files.",
+            "verb": "organized"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "organized",
+                        "description": "[ARG0: I] [V: organized] [ARG1: the files] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "organized",
+                    "the",
+                    "files",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He hammered the nail.",
+            "verb": "hammered"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "hammered",
+                        "description": "[ARG0: He] [V: hammered] [ARG1: the nail] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "hammered",
+                    "the",
+                    "nail",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We wrapped the presents.",
+            "verb": "wrapped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wrapped",
+                        "description": "[ARG0: We] [V: wrapped] [ARG1: the presents] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "wrapped",
+                    "the",
+                    "presents",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The plane soared high.",
+            "verb": "soared"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "soared",
+                        "description": "[ARG1: The plane] [V: soared] [ARG2: high] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARG2",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "plane",
+                    "soared",
+                    "high",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She wiped the table.",
+            "verb": "wiped"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "wiped",
+                        "description": "[ARG0: She] [V: wiped] [ARG1: the table] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "wiped",
+                    "the",
+                    "table",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I dusted the shelves.",
+            "verb": "dusted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "dusted",
+                        "description": "[ARG0: I] [V: dusted] [ARG1: the shelves] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "dusted",
+                    "the",
+                    "shelves",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He grilled burgers.",
+            "verb": "grilled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "grilled",
+                        "description": "[ARG0: He] [V: grilled] [ARG1: burgers] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "grilled",
+                    "burgers",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We marched in the parade.",
+            "verb": "marched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "marched",
+                        "description": "[ARG0: We] [V: marched] [ARGM-LOC: in the parade] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "I-ARGM-LOC",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "marched",
+                    "in",
+                    "the",
+                    "parade",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The dog fetched the stick.",
+            "verb": "fetched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "fetched",
+                        "description": "[ARG0: The dog] [V: fetched] [ARG1: the stick] .",
+                        "tags": [
+                            "B-ARG0",
+                            "I-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "dog",
+                    "fetched",
+                    "the",
+                    "stick",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She twirled her umbrella.",
+            "verb": "twirled"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "twirled",
+                        "description": "[ARG0: She] [V: twirled] [ARG1: her umbrella] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "twirled",
+                    "her",
+                    "umbrella",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I selected a movie.",
+            "verb": "selected"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "selected",
+                        "description": "[ARG0: I] [V: selected] [ARG1: a movie] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "selected",
+                    "a",
+                    "movie",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He trimmed the hedge.",
+            "verb": "trimmed"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "trimmed",
+                        "description": "[ARG0: He] [V: trimmed] [ARG1: the hedge] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "trimmed",
+                    "the",
+                    "hedge",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We launched the rocket.",
+            "verb": "launched"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "launched",
+                        "description": "[ARG0: We] [V: launched] [ARG1: the rocket] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "launched",
+                    "the",
+                    "rocket",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "The flag waved proudly.",
+            "verb": "waved"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "waved",
+                        "description": "[ARG1: The flag] [V: waved] [ARGM-MNR: proudly] .",
+                        "tags": [
+                            "B-ARG1",
+                            "I-ARG1",
+                            "B-V",
+                            "B-ARGM-MNR",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "The",
+                    "flag",
+                    "waved",
+                    "proudly",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "She opened the window.",
+            "verb": "opened"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "opened",
+                        "description": "[ARG0: She] [V: opened] [ARG1: the window] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "She",
+                    "opened",
+                    "the",
+                    "window",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "I sharpened the pencil.",
+            "verb": "sharpened"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "sharpened",
+                        "description": "[ARG0: I] [V: sharpened] [ARG1: the pencil] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "I",
+                    "sharpened",
+                    "the",
+                    "pencil",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "He kicked the ball.",
+            "verb": "kicked"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "kicked",
+                        "description": "[ARG0: He] [V: kicked] [ARG1: the ball] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "He",
+                    "kicked",
+                    "the",
+                    "ball",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    },
+    {
+        "input": {
+            "sentence": "We escorted the guests.",
+            "verb": "escorted"
+        },
+        "output": {
+            "prediction": {
+                "verbs": [
+                    {
+                        "verb": "escorted",
+                        "description": "[ARG0: We] [V: escorted] [ARG1: the guests] .",
+                        "tags": [
+                            "B-ARG0",
+                            "B-V",
+                            "B-ARG1",
+                            "I-ARG1",
+                            "O"
+                        ]
+                    }
+                ],
+                "words": [
+                    "We",
+                    "escorted",
+                    "the",
+                    "guests",
+                    "."
+                ]
+            }
+        },
+        "failure": false
+    }
+]
