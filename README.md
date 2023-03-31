@@ -2,7 +2,7 @@
 ### Nedim Azar - 2728313
 Python: `3.8.10`
 
-## Repo Structure
+## Repo Structure:
 * Each notebook under `src` represents a broad capability being tested, and contains one or more tests.
   * Each test deals with a specific capability of an SRL system.
 * The Challenge Sets are contained in `src/data`, and are named accordingly.
