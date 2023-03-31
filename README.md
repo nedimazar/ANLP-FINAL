@@ -6,7 +6,7 @@ Python: `3.8.10`
 * Each notebook under `src` represents a broad capability being tested, and contains one or more tests.
   * Each test deals with a specific capability of an SRL system.
 * The Challenge Sets are contained in `src/data`, and are named accordingly.
-* The `src/model_outputs` directory conntains the outputs of the BERT and BiLSTM based models.
+* The `src/model_outputs` directory contains the outputs of the BERT and BiLSTM based models.
   * This directory will be overriden when you run the notebooks.
 
 ## Set-Up:
